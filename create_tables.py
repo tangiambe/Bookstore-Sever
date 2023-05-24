@@ -1,7 +1,8 @@
 import sqlite3
 from sqlite3 import Error
 
-from connection import get_connection
+from connection import create_connection
+
 
 def create_table(conn, create_table_sql):
     """
@@ -18,6 +19,7 @@ def create_table(conn, create_table_sql):
     except Error as e:
         print(e)
 
+
 def main():
     print("Running main")
     database = "bims.db"
@@ -29,7 +31,7 @@ def main():
                             name VARCHAR(255) NOT NULL
                         );
                         """
-    
+
     make_category_table = """
                         CREATE TABLE IF NOT EXISTS category
                         (
@@ -37,7 +39,7 @@ def main():
                             name VARCHAR(255) NOT NULL
                         );
                         """
-    
+
     make_book_table = """
                     CREATE TABLE IF NOT EXISTS book
                     (
@@ -53,8 +55,8 @@ def main():
                     );
                     """
 
-    conn = get_connection(database)
-    
+    conn = create_connection(database)
+
     if conn is not None:
         create_table(conn, make_author_table)
         create_table(conn, make_category_table)
@@ -62,6 +64,7 @@ def main():
 
     else:
         print("Aw geez, something's wrong with your db connection!")
+
 
 if __name__ == "__main__":
     main()

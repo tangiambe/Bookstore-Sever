@@ -1,4 +1,4 @@
-from connection import get_connection
+from connection import create_connection
 
 
 def all_books(conn):
@@ -53,7 +53,7 @@ def select_category(conn, value=None, column=None):
 
 def main():
     database = "bims.db"
-    conn = get_connection(database)
+    conn = create_connection(database)
 
     sql = "SELECT * FROM book"
     cursor = conn.cursor()
