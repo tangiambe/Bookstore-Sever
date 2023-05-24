@@ -44,12 +44,10 @@ def main():
                     (
                         id integer PRIMARY KEY,
                         title VARCHAR(255) NOT NULL,
-                        published DATE,
                         price integer NOT NULL,
                         year int NOT NULL,
                         quantity int  NOT NULL,
                         rating VARCHAR(50),
-                        author_id integer NOT NULL,
                         category_id integer NOT NULL,
                         FOREIGN KEY (category_id)
                             REFERENCES category (id)
