@@ -59,6 +59,20 @@ def main():
     database = "book_store.db"
     conn = create_connection(database)
 
+    if conn:
+
+        with conn:
+            pass
+
+
+            """
+                grab the exported data from the old databse 
+                and insert into the new database
+                
+            insert_book(conn, {"name": "The Bee Book",
+                               "published": "2016-03-1",
+                               "author": "Emma Tennant",
+                               "category": "Science"})"""
 
 
 if __name__ == "__main__":
