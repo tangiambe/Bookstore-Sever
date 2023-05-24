@@ -70,7 +70,7 @@ def insert_book(conn, book: dict):
 
 
 def main():
-    database = "book_store.db"
+    database = "bookstore.db"
     conn = create_connection(database)
 
     if conn:
