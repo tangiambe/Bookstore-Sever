@@ -20,7 +20,21 @@ def insert_category(conn, category: dict):
 def insert_bookauthor(conn, bookauthor: dict):
     sql = "INSERT INTO bookauthor (author_id,book_id) VALUES (?,?)"
     cursor = conn.cursor()
-    cursor.execute(sql, [bookauthor["name"],bookauthor["name"]])
+
+    author = qd.select_author(conn, bookauthor["author"], "name")
+    if author:
+        author_id = author[0]
+    else:
+        author_id = insert_author(conn, {"name": bookauthor["author"]})
+
+    category = qd.select_category(conn, bookauthor["category"], "name")
+    if category:
+        category_id = category[0]
+    else:
+        category_id = insert_category(conn, {"name": bookauthor["category"]})
+
+
+    cursor.execute(sql,[author_id,category_id])
     conn.commit()
     return cursor.lastrowid
 
