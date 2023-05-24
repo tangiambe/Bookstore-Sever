@@ -44,7 +44,6 @@ def main():
                     (
                         id integer PRIMARY KEY,
                         title VARCHAR(255) NOT NULL,
-                        published DATE,
                         price integer NOT NULL,
                         year int NOT NULL,
                         quantity int  NOT NULL,
