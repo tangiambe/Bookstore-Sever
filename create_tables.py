@@ -21,8 +21,7 @@ def create_table(conn, create_table_sql):
 
 
 def main():
-    print("Running main")
-    database = "bims.db"
+    database = "bookstore.db"
 
     make_author_table = """
                         CREATE TABLE IF NOT EXISTS author
@@ -44,26 +43,54 @@ def main():
                     CREATE TABLE IF NOT EXISTS book
                     (
                         id integer PRIMARY KEY,
-                        name VARCHAR(255) NOT NULL,
+                        title VARCHAR(255) NOT NULL,
                         published DATE,
+                        price integer NOT NULL,
+                        year int NOT NULL,
+                        quantity int  NOT NULL,
+                        rating VARCHAR(50),
                         author_id integer NOT NULL,
                         category_id integer NOT NULL,
-                        FOREIGN KEY (author_id)
-                            REFERENCES author (id),
                         FOREIGN KEY (category_id)
                             REFERENCES category (id)
                     );
                     """
+    
+    make_bookauthor_table = """
+    
+                    CREATE TABLE IF NOT EXISTS bookauthor
+                    (
+                        id integer PRIMARY KEY,
+                        name VARCHAR(50) NOT NULL,
+                        email VARCHAR(50) NOT NULL,
+                        password VARCHAR(50) NOT NULL
+                    );
+                    """
 
+    make_user_table = """
+                    CREATE TABLE IF NOT EXISTS user
+                    (
+                        user_id integer PRIMARY KEY,
+                        author_id integer NOT NULL,
+                        book_id integer NOT NULL,
+                        FOREIGN KEY (author_id)
+                            REFERENCES author (id),
+                        FOREIGN KEY (book_id)
+                            REFERENCES book (id)
+                    );
+                    """
+    
     conn = create_connection(database)
 
     if conn is not None:
         create_table(conn, make_author_table)
         create_table(conn, make_category_table)
         create_table(conn, make_book_table)
+        create_table(conn, make_bookauthor_table)
+        create_table(conn, make_user_table)
 
     else:
-        print("Aw geez, something's wrong with your db connection!")
+        print("Unnexpected Error, Could not Create Tables")
 
 
 if __name__ == "__main__":
