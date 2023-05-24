@@ -48,7 +48,6 @@ def main():
                         year int NOT NULL,
                         quantity int  NOT NULL,
                         rating VARCHAR(50),
-                        author_id integer NOT NULL,
                         category_id integer NOT NULL,
                         FOREIGN KEY (category_id)
                             REFERENCES category (id)
