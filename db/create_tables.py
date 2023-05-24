@@ -21,7 +21,7 @@ def create_table(conn, create_table_sql):
 
 
 def main():
-    database = "book_store.db"
+    database = "bookstore.db"
 
     make_author_table = """
                         CREATE TABLE IF NOT EXISTS author
