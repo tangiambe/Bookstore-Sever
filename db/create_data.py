@@ -17,6 +17,34 @@ def insert_category(conn, category: dict):
     conn.commit()
     return cursor.lastrowid
 
+def insert_bookauthor(conn, bookauthor: dict):
+    sql = "INSERT INTO bookauthor (author_id,book_id) VALUES (?,?)"
+    cursor = conn.cursor()
+
+    author = qd.select_author(conn, bookauthor["author"], "name")
+    if author:
+        author_id = author[0]
+    else:
+        author_id = insert_author(conn, {"name": bookauthor["author"]})
+
+    category = qd.select_category(conn, bookauthor["category"], "name")
+    if category:
+        category_id = category[0]
+    else:
+        category_id = insert_category(conn, {"name": bookauthor["category"]})
+
+
+    cursor.execute(sql,[author_id,category_id])
+    conn.commit()
+    return cursor.lastrowid
+
+def insert_user(conn, user: dict):
+    sql = "INSERT INTO user (name, email, password) VALUES (?,?,?)"
+    cursor = conn.cursor()
+    cursor.execute(sql, [user["name"],user["name"]])
+    conn.commit()
+    return cursor.lastrowid
+
 
 def insert_book(conn, book: dict):
     sql = "INSERT INTO book (name, published, author_id, category_id) VALUES (?, ?, ? ,?)"
@@ -42,16 +70,23 @@ def insert_book(conn, book: dict):
 
 
 def main():
-    database = "bims.db"
+    database = "book_store.db"
     conn = create_connection(database)
 
     if conn:
 
         with conn:
+            pass
+
+
+            """
+                grab the exported data from the old databse 
+                and insert into the new database
+                
             insert_book(conn, {"name": "The Bee Book",
                                "published": "2016-03-1",
                                "author": "Emma Tennant",
-                               "category": "Science"})
+                               "category": "Science"})"""
 
 
 if __name__ == "__main__":

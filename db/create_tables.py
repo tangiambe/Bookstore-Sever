@@ -21,7 +21,7 @@ def create_table(conn, create_table_sql):
 
 
 def main():
-    database = "bookstore.db"
+    database = "book_store.db"
 
     make_author_table = """
                         CREATE TABLE IF NOT EXISTS author
@@ -61,9 +61,12 @@ def main():
                     CREATE TABLE IF NOT EXISTS bookauthor
                     (
                         id integer PRIMARY KEY,
-                        name VARCHAR(50) NOT NULL,
-                        email VARCHAR(50) NOT NULL,
-                        password VARCHAR(50) NOT NULL
+                        author_id integer NOT NULL,
+                        book_id integer NOT NULL,
+                        FOREIGN KEY (author_id)
+                            REFERENCES author (id),
+                        FOREIGN KEY (book_id)
+                            REFERENCES book (id)
                     );
                     """
 
@@ -71,12 +74,9 @@ def main():
                     CREATE TABLE IF NOT EXISTS user
                     (
                         user_id integer PRIMARY KEY,
-                        author_id integer NOT NULL,
-                        book_id integer NOT NULL,
-                        FOREIGN KEY (author_id)
-                            REFERENCES author (id),
-                        FOREIGN KEY (book_id)
-                            REFERENCES book (id)
+                        name VARCHAR(50) NOT NULL,
+                        email VARCHAR(50) NOT NULL,
+                        password VARCHAR(50) NOT NULL
                     );
                     """
     
