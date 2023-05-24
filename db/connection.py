@@ -33,4 +33,4 @@ def get_connection(db_file):
     """Close the connection after using it."""
 
 if __name__ == "__main__":
-    get_connection("bims.db")
+    get_connection("bookstore.db")
