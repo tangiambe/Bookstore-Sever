@@ -55,7 +55,15 @@ def author_by_id(author_id):
        # author = request.json()
        # update_author(author_id, author)
        return f"Updated author with id: {author_id}"
-    elif request == "DELETE":
+    elif request.method == "DELETE":
         # TODO: implement delete author
         # delete_author(author_id)
-        return f"deleted author with id {author_id}"
+
+        conn = create_connection("bookstore.db")
+        db.delete_author(conn,author_id)
+        conn.close()
+        return "deleted author",202
+    
+    
+if __name__ == "__main__":
+    app.run(debug=True)
