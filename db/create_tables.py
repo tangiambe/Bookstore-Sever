@@ -26,7 +26,7 @@ def main():
     make_author_table = """
                         CREATE TABLE IF NOT EXISTS author
                         (
-                            id integer PRIMARY KEY,
+                            id integer PRIMARY KEY ,
                             name VARCHAR(255) NOT NULL
                         );
                         """
@@ -50,7 +50,7 @@ def main():
                         rating VARCHAR(50),
                         category_id integer NOT NULL,
                         FOREIGN KEY (category_id)
-                            REFERENCES category (id)
+                            REFERENCES category (id) ON DELETE CASCADE ON UPDATE CASCADE
                     );
                     """
     
@@ -62,9 +62,9 @@ def main():
                         author_id integer NOT NULL,
                         book_id integer NOT NULL,
                         FOREIGN KEY (author_id)
-                            REFERENCES author (id),
+                            REFERENCES author (id) ON DELETE CASCADE ON UPDATE CASCADE,
                         FOREIGN KEY (book_id)
-                            REFERENCES book (id)
+                            REFERENCES book (id) ON DELETE CASCADE ON UPDATE CASCADE
                     );
                     """
 
