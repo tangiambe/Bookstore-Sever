@@ -32,12 +32,14 @@ def category():
             conn.close()
             return jsonify(category), 201
         else:
+            # CREATE CATEGORY
             category = create.insert_category(conn, request.json)
             conn.close()
             return jsonify(category), 201
 
 @app.route("/api/category/<category_id>", methods=["GET", "PUT", "DELETE"])
 def category_by_id(category_id):
+    # READ CATEGORY
     if request.method == "GET":
         conn = create_connection("bookstore.db")
         category = db.select_category(conn, category_id, "id")
@@ -51,6 +53,7 @@ def category_by_id(category_id):
         else:
             return f"Category with id {category_id} not found", 204
         
+    # UPDATE CATEGORY
     elif request.method == "PUT":
         conn = create_connection("bookstore.db")
         category = db.select_category(conn, category_id, "id")
@@ -61,7 +64,8 @@ def category_by_id(category_id):
             return f"Updated category with id: {category_id}",202
         else:
             return f"Category with id {category_id} not found", 204
-       
+    
+    # DELETE CATEGORY
     elif request == "DELETE":
         conn = create_connection("bookstore.db")
         category = db.select_category(conn, category_id, "id")
