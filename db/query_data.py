@@ -7,6 +7,18 @@ def all_books(conn):
     cursor.execute(sql)
     return cursor.fetchall()
 
+def all_authors(conn):
+    sql = "SELECT * FROM author"
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    return cursor.fetchall()
+
+def all_categories(conn):
+    sql = "SELECT * FROM category"
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    return cursor.fetchall()
+
 
 def select_book(conn, book_id):
     sql = "SELECT * FROM book WHERE id = ?"
@@ -51,14 +63,14 @@ def select_category(conn, value=None, column=None):
     return cursor.fetchone()
 
 
-def main():
-    database = "bims.db"
-    conn = create_connection(database)
+# def main():
+#     database = "bims.db"
+#     conn = create_connection(database)
 
-    sql = "SELECT * FROM book"
-    cursor = conn.cursor()
-    cursor.execute(sql)
-    print(cursor.fetchone())
+#     sql = "SELECT * FROM book"
+#     cursor = conn.cursor()
+#     cursor.execute(sql)
+#     print(cursor.fetchone())
 
 
 if __name__ == "__main__":
