@@ -15,7 +15,7 @@ def author():
     if request.method == "GET":
         conn = create_connection("bookstore.db")
         results = []
-        for author in db.select_author(conn):
+        for author in db.all_authors(conn):
             results.append({
                 "id":author[0],
                 "name": author[1]
@@ -27,17 +27,19 @@ def author():
         conn = create_connection("bookstore.db")
         if request.form:
             author = create.insert_author(conn,{
-                "name":request.form["name"],
+                "name":request.form["name"]
             })
             conn.close()
             return jsonify(author), 201
         else:
+        # CREATE AUTHOR
             author = create.insert_author(conn, request.json)
             conn.close()
             return jsonify(author), 201
 
 @app.route("/api/author/<author_id>", methods=["GET", "PUT", "DELETE"])
 def author_by_id(author_id):
+    #READ AUTHOR
     if request.method == "GET":
         conn = create_connection("bookstore.db")
         author = db.select_author(conn, author_id, "id")
@@ -51,18 +53,26 @@ def author_by_id(author_id):
         else:
             return f"author with id {author_id} not found", 204
     elif request.method == "PUT":
-       # TODO: implement author query
-       # author = request.json()
-       # update_author(author_id, author)
-       return f"Updated author with id: {author_id}"
-    elif request.method == "DELETE":
-        # TODO: implement delete author
-        # delete_author(author_id)
-
+        # UPDATE AUTHOR
         conn = create_connection("bookstore.db")
-        db.delete_author(conn,author_id)
-        conn.close()
-        return "deleted author",202
+        author = db.select_author(conn, author_id, "id")
+        if author:
+            name = request.json["name"]
+            db.update_author(conn,name,author_id)
+            conn.close()
+            return f"Updated author with id: {author_id}",202
+        else:
+            return f"author with id {author_id} not found", 204
+    elif request.method == "DELETE":
+        # DELETE AUTHOR
+        conn = create_connection("bookstore.db")
+        author = db.select_author(conn, author_id, "id")
+        if author:
+            db.delete_author(conn,author_id)
+            conn.close()
+            return f"Deleted author with id: {author_id}",202
+        else:
+            return f"author with id {author_id} not found", 204
     
     
 if __name__ == "__main__":

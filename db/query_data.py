@@ -72,17 +72,17 @@ def select_category(conn, value=None, column=None):
 
 """ ==========  UPDATE QUERIES  =========== """
 
-def update_author(conn, value=None,column=None):
+def update_author(conn, value=None, author_id=None):
     cursor = conn.cursor()
-    sql = "UPDATE author SET name = value WHERE column = ?"
-    cursor.execute(sql, [value])
+    sql = "UPDATE author SET name = ? WHERE id = ?"
+    cursor.execute(sql, [value, author_id])
     conn.commit()
     return cursor.fetchone()
 
-def update_category(conn, value=None,column=None):
+def update_category(conn, value=None, category_id=None):
     cursor = conn.cursor()
-    sql = "UPDATE category SET name = value WHERE column = ?"
-    cursor.execute(sql, [value])
+    sql = "UPDATE category SET name = value WHERE id = ?"
+    cursor.execute(sql, [value, category_id])
     conn.commit()
     return cursor.fetchone()
 
@@ -119,11 +119,10 @@ def delete_author(conn, value=None):
     return cursor.fetchone()
 
 
-def delete_category(conn, value=None,column=None):
+def delete_category(conn, value=None):
     cursor = conn.cursor()
-    sql = "DELETE FROM category WHERE column = ?"
+    sql = "DELETE FROM category WHERE id = ?"
     cursor.execute(sql, [value])
-
     conn.commit()
     return cursor.fetchone()
 
