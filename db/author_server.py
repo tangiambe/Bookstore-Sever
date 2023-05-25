@@ -54,6 +54,7 @@ def author_by_id(author_id):
        # TODO: implement author query
        # author = request.json()
        # update_author(author_id, author)
+
         conn = create_connection("bookstore.db")
         author = db.select_author(conn, author_id, "id")
         if author:
