@@ -1,8 +1,7 @@
-from flask import Flask, request, jsonify, render_template
-
-from ..db.connection import create_connection
-from ..db.query_data import qd
-from ..db.create_data import create
+from flask import Flask, request, jsonify
+from connection import create_connection
+import query_data as db
+import create_data as create
 
 
 
