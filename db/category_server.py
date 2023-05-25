@@ -51,11 +51,12 @@ def category_by_id(category_id):
         else:
             return f"Category with id {category_id} not found", 204
     elif request.method == "PUT":
-       # TODO: implement author query
+       # TODO: implement category query
        # category = request.json()
        # update_category(category_id, category)
        return f"Updated category with id: {category_id}"
     elif request == "DELETE":
-        # TODO: implement delete category
-        # delete_category(category_id)
-        return f"Deleted category with id {category_id}"
+        conn = create_connection("bookstore.db")
+        db.delete_category(conn, category_id)
+        conn.close()
+        return f"Deleted category with id {category_id}", 202
