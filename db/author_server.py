@@ -64,8 +64,11 @@ def author_by_id(author_id):
         else:
             return f"author with id {author_id} not found", 204
     elif request.method == "DELETE":
+<<<<<<< HEAD
         # TODO: implement delete author
         # delete_author(author_id)
+=======
+>>>>>>> 788039fcf167b9e88e604ea7819d878b58af1a9a
         conn = create_connection("bookstore.db")
         author = db.select_author(conn, author_id, "id")
         if author:
