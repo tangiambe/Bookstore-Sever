@@ -81,17 +81,17 @@ def update_author(conn, value=None, author_id=None):
 
 def update_category(conn, value=None, category_id=None):
     cursor = conn.cursor()
-    sql = "UPDATE category SET name = value WHERE id = ?"
+    sql = "UPDATE category SET name = ? WHERE id = ?"
     cursor.execute(sql, [value, category_id])
     conn.commit()
     return cursor.fetchone()
 
-def update_bookauthor(conn, value=None, column=None):
+"""def update_bookauthor(conn, value=None, column=None):
     cursor = conn.cursor()
     sql = "UPDATE bookauthor SET column = value WHERE column = ?"
     cursor.execute(sql, [value])
     conn.commit()
-    return cursor.fetchone()
+    return cursor.fetchone()"""
 
 def update_book(conn, value=None, column=None):
     cursor = conn.cursor()
@@ -126,16 +126,16 @@ def delete_category(conn, value=None):
     conn.commit()
     return cursor.fetchone()
 
-def delete_bookauthor(conn, value=None, column=None):
+"""def delete_bookauthor(conn, value=None, column=None):
     cursor = conn.cursor()
     sql = "DELETE FROM bookauthor WHERE column = ?"
     cursor.execute(sql, [value])
     conn.commit()
-    return cursor.fetchone()
+    return cursor.fetchone()"""
 
-def delete_book(conn, value=None, column=None):
+def delete_book(conn, value=None):
     cursor = conn.cursor()
-    sql = "DELETE FROM book WHERE column = ?"
+    sql = "DELETE FROM book WHERE id = ?"
     cursor.execute(sql, [value])
     conn.commit()
     return cursor.fetchone()
