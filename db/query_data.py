@@ -135,10 +135,10 @@ def select_category(conn, value=None, column=None):
     return cursor.fetchone()
 
 
+
 def main():
     database = "bookstore.db"
     conn = create_connection(database)
-
 
 
 if __name__ == "__main__":
