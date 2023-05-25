@@ -32,12 +32,14 @@ def author():
             conn.close()
             return jsonify(author), 201
         else:
+        # CREATE AUTHOR
             author = create.insert_author(conn, request.json)
             conn.close()
             return jsonify(author), 201
 
 @app.route("/api/author/<author_id>", methods=["GET", "PUT", "DELETE"])
 def author_by_id(author_id):
+    #READ AUTHOR
     if request.method == "GET":
         conn = create_connection("bookstore.db")
         author = db.select_author(conn, author_id, "id")
@@ -51,10 +53,7 @@ def author_by_id(author_id):
         else:
             return f"author with id {author_id} not found", 204
     elif request.method == "PUT":
-       # TODO: implement author query
-       # author = request.json()
-       # update_author(author_id, author)
-
+        # UPDATE AUTHOR
         conn = create_connection("bookstore.db")
         author = db.select_author(conn, author_id, "id")
         if author:
@@ -65,6 +64,7 @@ def author_by_id(author_id):
         else:
             return f"author with id {author_id} not found", 204
     elif request.method == "DELETE":
+        # DELETE AUTHOR
         conn = create_connection("bookstore.db")
         author = db.select_author(conn, author_id, "id")
         if author:
