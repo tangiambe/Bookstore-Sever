@@ -105,14 +105,14 @@ def select_category(conn, value=None, column=None):
     return cursor.fetchone()
 
 
-def main():
-    database = "bims.db"
-    conn = create_connection(database)
+# def main():
+#     database = "bims.db"
+#     conn = create_connection(database)
 
-    sql = "SELECT * FROM book"
-    cursor = conn.cursor()
-    cursor.execute(sql)
-    print(cursor.fetchone())
+#     sql = "SELECT * FROM book"
+#     cursor = conn.cursor()
+#     cursor.execute(sql)
+#     print(cursor.fetchone())
 
 
 if __name__ == "__main__":
