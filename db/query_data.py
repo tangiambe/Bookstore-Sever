@@ -34,6 +34,12 @@ def select_book_id(conn,value=None):
     cursor.execute(sql, [value])
     return cursor.fetchall()
 
+def select_author_id(conn,value=None):
+    cursor = conn.cursor()
+    sql = "SELECT * from bookauthor where book_id = ?"
+    cursor.execute(sql, [value])
+    return cursor.fetchall()
+
 def select_author(conn, value=None, column=None):
     cursor = conn.cursor()
 
@@ -161,53 +167,3 @@ def delete_book(conn, value=None):
     cursor.execute(sql, [value])
     conn.commit()
     return cursor.fetchone()
-
-
-def main():
-    database = "bookstore.db"
-    conn = create_connection(database)
-
-    # print(select_book_id(conn, 517576600))
-
-    # books = all_books(conn)
-    # results = []
-    
-    # for book in books:
-    #     """
-    #     book:
-    #         - book_id
-    #         - title
-    #         - price
-    #         - year
-    #         - quantity
-    #         - rating
-    #         - category_id
-    #     """
-
-    #     # TODO: get author name
-    #     # by going to bookauthor -> finding author_id next to book_id
-    #     # go to author table -> get author_name next by querying with author_id
-    #     authors = []
-    #     for author in select_book_id(conn, book[0]): 
-    #         author_names = select_author(conn, author[1], id)[1]
-    #         authors.append()
-            
-    #     category = select_category(conn, book[6], id)
-
-    #     results.append({
-    #         "name": book[1],
-    #         "published": book[3],
-    #         "author": authors,
-    #         "category": category[1]
-    #     })
-    # print(results)
-
-    print(select_author(conn, 81, "id"))
-
-    conn.close()
-
-    
-
-
-if __name__ == "__main__":
-    main()

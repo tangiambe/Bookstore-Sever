@@ -11,8 +11,11 @@ def home(name):
     return f"_"
 
 
+""" ---  BOOK REST API CALLS --- """
+
 @app.route("/book", methods=["GET", "POST"])
 def books():
+    #GET BOOK
     if request.method == "GET":
         conn = create_connection("bookstore.db")
         books = db.all_books(conn)
@@ -31,9 +34,9 @@ def books():
             """
 
             authors = []
-            for author in db.select_book_id(conn, book[0]): 
+            for author in db.select_author_id(conn, book[0]): 
                 authors.append(db.select_author(conn, author[1], "id")[1])
-            category = db.select_category(conn, book[6], id)
+            category = db.select_category(conn, book[6], 'id')
 
             results.append({
                 "name": book[1],
@@ -47,7 +50,7 @@ def books():
     
     #CREATE BOOK
     elif request.method == "POST":
-        # TODO: Accept Complete Book Request 
+        # Pipeline:
         # 1) Accept a dictionary to get title, price, year, quantity, authors, rating, category
         # 2) Check for category in category table, if exists assign as id, else create category
         # 3) Create book into table with above id
@@ -67,7 +70,6 @@ def books():
         request.form["author"]: dict,
         """
 
-
         conn = create_connection("bookstore.db")
         if request.form:
             book = create.insert_book(conn,{
@@ -83,7 +85,7 @@ def books():
         else: # accounts for JSON
             book = create.insert_book(conn, request.json)
             
-        """ --- 3. BOOKAUTHOR ENTRY --- """ # need to get book_id and authors_id post-create
+        """ --- BOOKAUTHOR ENTRY --- """
 
         book_id = book[0]
         author_ids = book[1]
@@ -95,7 +97,6 @@ def books():
         
         conn.close()
         return jsonify(book_id), 201
-        
         
 
 @app.route("/api/book/<book_id>", methods=["GET", "PUT", "DELETE"])
@@ -122,9 +123,6 @@ def book_by_id(book_id):
     
     # UPDATE BOOK
     elif request.method == "PUT":
-       # TODO: implement book query
-       # book = request.json()
-       # update_book(book_id, book)
         conn = create_connection("bookstore.db")
         book = db.select_book(conn, book_id)
         if book:
@@ -151,7 +149,7 @@ def book_by_id(book_id):
         else:
             return f"Book with id {book_id} not found", 204
    
-   # DELETE BOOK
+    # DELETE BOOK
     elif request.method == "DELETE":
         conn = create_connection("bookstore.db")
         book = db.select_book(conn, book_id)
@@ -161,6 +159,142 @@ def book_by_id(book_id):
             return f"Deleted Book with id: {book_id}",202
         else:
             return f"Book with id {book_id} not found", 204
+
+
+""" ---  AUTHOR REST API --- """
+
+@app.route("/author", methods=["GET", "POST"])
+def author():
+    if request.method == "GET":
+        conn = create_connection("bookstore.db")
+        results = []
+        for author in db.all_authors(conn):
+            results.append({
+                "id":author[0],
+                "name": author[1]
+            })
+        conn.close()
+        return results, 200
+    
+    elif request.method == "POST":
+        conn = create_connection("bookstore.db")
+        if request.form:
+            author = create.insert_author(conn,{
+                "name":request.form["name"]
+            })
+            conn.close()
+            return jsonify(author), 201
+        else:
+        # CREATE AUTHOR
+            author = create.insert_author(conn, request.json)
+            conn.close()
+            return jsonify(author), 201
+
+@app.route("/api/author/<author_id>", methods=["GET", "PUT", "DELETE"])
+def author_by_id(author_id):
+    #READ AUTHOR
+    if request.method == "GET":
+        conn = create_connection("bookstore.db")
+        author = db.select_author(conn, author_id, "id")
+        if author:
+            result = {
+                    "id": author[0],
+                    "name":author[1]
+            }
+            conn.close()
+            return result, 200
+        else:
+            return f"author with id {author_id} not found", 204
+    elif request.method == "PUT":
+        # UPDATE AUTHOR
+        conn = create_connection("bookstore.db")
+        author = db.select_author(conn, author_id, "id")
+        if author:
+            name = request.json["name"]
+            db.update_author(conn,name,author_id)
+            conn.close()
+            return f"Updated author with id: {author_id}",202
+        else:
+            return f"author with id {author_id} not found", 204
+    elif request.method == "DELETE":
+        # DELETE AUTHOR
+        conn = create_connection("bookstore.db")
+        author = db.select_author(conn, author_id, "id")
+        if author:
+            db.delete_author(conn,author_id)
+            conn.close()
+            return f"Deleted author with id: {author_id}",202
+        else:
+            return f"author with id {author_id} not found", 204
+
+""" ---  CATEGORY REST API --- """
+
+@app.route("/category", methods=["GET", "POST"])
+def category():
+    if request.method == "GET":
+        conn = create_connection("bookstore.db")
+        results = []
+        for category in db.all_categories(conn):
+            results.append({
+                "id":category[0],
+                "name": category[1]
+            })
+        conn.close()
+        return results, 200
+    
+    elif request.method == "POST":
+        conn = create_connection("bookstore.db")
+        if request.form:
+            category = create.insert_category(conn,{
+                "name":request.form["name"],
+            })
+            conn.close()
+            return jsonify(category), 201
+        else:
+            # CREATE CATEGORY
+            category = create.insert_category(conn, request.json)
+            conn.close()
+            return jsonify(category), 201
+
+@app.route("/api/category/<category_id>", methods=["GET", "PUT", "DELETE"])
+def category_by_id(category_id):
+    # READ CATEGORY
+    if request.method == "GET":
+        conn = create_connection("bookstore.db")
+        category = db.select_category(conn, category_id, "id")
+        if category:
+            result = {
+                    "id": category[0],
+                    "name":category[1]
+            }
+            conn.close()
+            return result, 200
+        else:
+            return f"Category with id {category_id} not found", 204
+        
+    # UPDATE CATEGORY
+    elif request.method == "PUT":
+        conn = create_connection("bookstore.db")
+        category = db.select_category(conn, category_id, "id")
+        if category:
+            name = request.json["name"]
+            db.update_caegory(conn,name,category_id)
+            conn.close()
+            return f"Updated category with id: {category_id}",202
+        else:
+            return f"Category with id {category_id} not found", 204
+    
+    # DELETE CATEGORY
+    elif request == "DELETE":
+        conn = create_connection("bookstore.db")
+        category = db.select_category(conn, category_id, "id")
+        if category:
+            db.delete_category(conn,category_id)
+            conn.close()
+            return f"Deleted category with id: {category_id}",202
+        else:
+            return f"Category with id {category_id} not found", 204
+
 
 if __name__ == "__main__":
     app.run(debug=True)

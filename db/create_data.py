@@ -78,26 +78,3 @@ def insert_book(conn, book: dict):
     print("We made it to the end!")
     return (cursor.lastrowid, author_ids)
 
-
-def main():
-    database = "bookstore.db"
-    conn = create_connection(database)
-
-    if conn:
-
-        with conn:
-            pass
-
-
-            """
-                grab the exported data from the old databse 
-                and insert into the new database
-                
-            insert_book(conn, {"name": "The Bee Book",
-                               "published": "2016-03-1",
-                               "author": "Emma Tennant",
-                               "category": "Science"})"""
-
-
-if __name__ == "__main__":
-    main()
