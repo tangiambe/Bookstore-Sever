@@ -45,6 +45,7 @@ def books():
         conn.close()
         return results, 200
     
+    #CREATE BOOK
     elif request.method == "POST":
         conn = create_connection("bookstore.db")
         if request.form:
@@ -63,8 +64,9 @@ def books():
 
 @app.route("/api/book/<book_id>", methods=["GET", "PUT", "DELETE"])
 def book_by_id(book_id):
+    #READ BOOK
     if request.method == "GET":
-        conn = create_connection("bims.db")
+        """   conn = create_connection("bims.db")
         book = qd.select_book(conn, book_id)
         if book:
             author = qd.select_author(conn, book[3], "id")
@@ -77,21 +79,26 @@ def book_by_id(book_id):
             }
             conn.close()
             return result, 200
-        else:
-            return f"book with id {book_id} not found", 204
+        else:"""
+        return f"book with id {book_id} not found", 204
+    
+    # UPDATE BOOK
     elif request.method == "PUT":
        # TODO: implement book query
        # book = request.json()
        # update_book(book_id, book)
        return f"Updated book with id: {book_id}"
-    elif request == "DELETE":
-        # TODO: implement delete book
-        # delete_book(book_id)
-        return f"deleted book with id {book_id}"
+   
+   # DELETE BOOK
+    elif request.method == "DELETE":
+        conn = create_connection("bookstore.db")
+        book = db.select_book(conn, book_id)
+        if book:
+            db.delete_book(conn,book_id)
+            conn.close()
+            return f"Deleted Book with id: {book_id}",202
+        else:
+            return f"Book with id {book_id} not found", 204
 
-if __name__ == "__main__":
-    app.run(debug=True)
-    
-    
 if __name__ == "__main__":
     app.run(debug=True)
