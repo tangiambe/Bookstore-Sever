@@ -66,28 +66,54 @@ def books():
 def book_by_id(book_id):
     #READ BOOK
     if request.method == "GET":
-        """   conn = create_connection("bims.db")
-        book = qd.select_book(conn, book_id)
+        conn = create_connection("bookstore.db")
+        book = db.select_book_id(conn, book_id)
         if book:
-            author = qd.select_author(conn, book[3], "id")
-            category = qd.select_category(conn, book[4], id)
             result = {
-                    "name":book[1],
-                    "published": book[2],
-                    "author": author[1],
-                    "category": category[1]
+                    "id": book[0][0],
+                    "title":book[0][1],
+                    "price":book[0][2],
+                    "year":book[0][3],
+                    "quantity":book[0][4],
+                    "rating":book[0][5],
+                    "category_id":book[0][6]
             }
             conn.close()
-            return result, 200
-        else:"""
-        return f"book with id {book_id} not found", 204
+            return jsonify(result), 200
+        else:
+            return f"author with id {book_id} not found", 204
+
     
     # UPDATE BOOK
     elif request.method == "PUT":
        # TODO: implement book query
        # book = request.json()
        # update_book(book_id, book)
-       return f"Updated book with id: {book_id}"
+        conn = create_connection("bookstore.db")
+        book = db.select_book(conn, book_id)
+        if book:
+            if "title" in request.json:
+                title = request.json["title"]
+                db.update_book(conn,title,book_id,1)
+            if "price" in request.json:
+                price = request.json["price"]
+                db.update_book(conn,price,book_id,2)
+            if "year" in request.json:
+                year = request.json["year"]
+                db.update_book(conn,year,book_id,3)
+            if "quantity" in request.json:
+                quantity = request.json["quantity"]
+                db.update_book(conn,quantity,book_id,4)
+            if "rating" in request.json:
+                rating = request.json["rating"]
+                db.update_book(conn,rating,book_id,5)
+            if "category_id" in request.json:
+                category_id = request.json["category_id"]
+                db.update_book(conn,category_id,book_id,6)
+            conn.close()
+            return f"Updated Book with id: {book_id}",202
+        else:
+            return f"Book with id {book_id} not found", 204
    
    # DELETE BOOK
     elif request.method == "DELETE":
