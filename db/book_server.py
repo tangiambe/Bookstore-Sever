@@ -47,20 +47,56 @@ def books():
     
     #CREATE BOOK
     elif request.method == "POST":
+        # TODO: Accept Complete Book Request 
+        # 1) Accept a dictionary to get title, price, year, quantity, authors, rating, category
+        # 2) Check for category in category table, if exists assign as id, else create category
+        # 3) Create book into table with above id
+        # 4) Authors should be accepted as a JSON Object and a Dict
+        # 5) Check for authors in Author Table, if they don't exist create them
+        # 6) Create bookauthor records by querying for book_id and author id, inserting that as a new record
+
+        # Accepts:
+        """
+        request.form["title"]: string,
+        request.form["price"]: int,
+        request.form["year"]: int,
+        request.form["quantity"]: int,
+        request.form["rating"]: string,
+        request.form["category"]: int,
+
+        request.form["author"]: dict,
+        """
+
+
         conn = create_connection("bookstore.db")
         if request.form:
             book = create.insert_book(conn,{
-                "name":request.form["name"],
-                "author":request.form["author"],
-                "category":request.form["category"],
-                "published":request.form["published"],
+                "title": request.form["title"],
+                "author": request.form["author"], # can be a dict
+                "year": request.form["year"],
+                "category": request.form["category"],
+                "rating": request.form["rating"],
+                "price": request.form["price"],
+                "quantity": request.form["quantity"]
             })
-            conn.close()
-            return render_template("index.html"), 201
-        else:
+
+        else: # accounts for JSON
             book = create.insert_book(conn, request.json)
-            conn.close()
-            return jsonify(book), 201
+            
+        """ --- 3. BOOKAUTHOR ENTRY --- """ # need to get book_id and authors_id post-create
+
+        book_id = book[0]
+        author_ids = book[1]
+        for id in author_ids :
+            create.insert_bookauthor(conn, {
+                "book_id": book_id,
+                "author_id": id
+            })
+        
+        conn.close()
+        return jsonify(book_id), 201
+        
+        
 
 @app.route("/api/book/<book_id>", methods=["GET", "PUT", "DELETE"])
 def book_by_id(book_id):
