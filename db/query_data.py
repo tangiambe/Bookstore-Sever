@@ -30,7 +30,7 @@ def select_book(conn, book_id):
 
 def select_book_id(conn,value=None):
     cursor = conn.cursor()
-    sql = "SELECT * from bookauthor where book_id = ?"
+    sql = "SELECT * from book where id = ?"
     cursor.execute(sql, [value])
     return cursor.fetchall()
 
@@ -93,11 +93,33 @@ def update_category(conn, value=None, category_id=None):
     conn.commit()
     return cursor.fetchone()"""
 
-def update_book(conn, value=None, column=None):
+def update_book(conn, value=None, book_id=None,col=None):
     cursor = conn.cursor()
-    sql = "UPDATE book SET column = value WHERE column = ?"
-    cursor.execute(sql, [value])
-    conn.commit()
+    match col:
+        case 1:#Title
+            sql = "UPDATE book SET title = ? WHERE id = ?"
+            cursor.execute(sql, [value,book_id])
+            conn.commit()
+        case 2:#price
+            sql = "UPDATE book SET price = ? WHERE id = ?"
+            cursor.execute(sql, [value,book_id])
+            conn.commit()
+        case 3:#year
+            sql = "UPDATE book SET year = ? WHERE id = ?"
+            cursor.execute(sql, [value,book_id])
+            conn.commit()
+        case 4:#quantity
+            sql = "UPDATE book SET quantity = ? WHERE id = ?"
+            cursor.execute(sql, [value,book_id])
+            conn.commit()
+        case 5:#rating
+            sql = "UPDATE book SET rating = ? WHERE id = ?"
+            cursor.execute(sql, [value,book_id])
+            conn.commit()
+        case 6:#category_id
+            sql = "UPDATE book SET category_id = ? WHERE id = ?"
+            cursor.execute(sql, [value,book_id])
+            conn.commit()            
     return cursor.fetchone()
 
 """ ==========  DELETE QUERIES  =========== """
