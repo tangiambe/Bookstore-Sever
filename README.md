@@ -1,4 +1,4 @@
-# Product-88 📚
+# Backend Bookstore Server 📚
 
 a small bookstore with BIG API capabilities 🦾
 
