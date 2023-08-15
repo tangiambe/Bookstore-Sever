@@ -47,7 +47,7 @@
         <div class="row mt-5">
             <div class="col-md-6 offset-md-3">
                 <h2>Search Books</h2>
-                <form action="{{ url_for('search_books') }}" method="GET">
+                <form action="{{ url_for('search_results') }}" method="GET">
                     <div class="form-group">
                         <label for="searchTerm">Search by Name, Author, or ISBN</label>
                         <input type="text" class="form-control" id="searchTerm" name="searchTerm" required>

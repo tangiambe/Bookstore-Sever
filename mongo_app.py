@@ -8,8 +8,9 @@ app.secret_key = 'xyzsdfg'
 
 # Initialize MongoDB client
 client = MongoClient("mongodb+srv://cody:team2password@books.ondwxvg.mongodb.net/")
-db = client.get_database("your-database")
+db = client.get_database("bookstore")
 users_collection = db.users
+books_collection = db.book
 
 @app.route('/index')
 def index():
@@ -62,9 +63,27 @@ def register():
         mesage = 'Please fill out the form !'
     return render_template('register.html', mesage=mesage)
 
-@app.route('/search_books')
-def search_books():
-    return render_template('search_results.html')
+@app.route("/search_results", methods=["GET"])
+def search_results():
+    search_term = request.args.get('searchTerm')
+    category = request.args.get('category')
+    
+    # Build the MongoDB query based on search_term and category (if provided)
+    query = {}
+    if search_term:
+        query["$or"] = [
+            {"title": {"$regex": search_term, "$options": "i"}},
+            {"author": {"$regex": search_term, "$options": "i"}},
+            {"isbn": {"$regex": search_term, "$options": "i"}}
+        ]
+    if category:
+        query["category"] = category
+    
+    # Retrieve book data from MongoDB based on the query
+    #books_collection = db['book']  # Replace 'books' with your collection name
+    books = books_collection.find(query)
+    
+    return render_template("search_results.html", books=books)
    
 if __name__ == "__main__":
     app.run(host='localhost', port=5000, debug=True)
