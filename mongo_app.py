@@ -44,24 +44,32 @@ def logout():
  
 @app.route('/register', methods=['GET', 'POST'])
 def register():
-    mesage = ''
-    if request.method == 'POST' and 'name' in request.form and 'password' in request.form and 'email' in request.form:
-        userName = request.form['name']
-        password = request.form['password']
-        email = request.form['email']
-        account = users_collection.find_one({'email': email})
-        if account:
-            mesage = 'Account already exists !'
+    message = ''
+    if request.method == 'POST':
+        first_name = request.form.get('first_name')
+        last_name = request.form.get('last_name')
+        username = request.form.get('username')
+        email = request.form.get('email')
+        password = request.form.get('password')
+        
+        if not all([first_name, last_name, username, email, password]):
+            message = 'Please fill out all the fields!'
         elif not re.match(r'[^@]+@[^@]+\.[^@]+', email):
-            mesage = 'Invalid email address !'
-        elif not userName or not password or not email:
-            mesage = 'Please fill out the form !'
+            message = 'Invalid email address!'
+        elif users_collection.find_one({'email': email}):
+            message = 'Account already exists!'
         else:
-            users_collection.insert_one({'name': userName, 'email': email, 'password': password})
-            mesage = 'You have successfully registered !'
-    elif request.method == 'POST':
-        mesage = 'Please fill out the form !'
-    return render_template('register.html', mesage=mesage)
+            user_data = {
+                'first_name': first_name,
+                'last_name': last_name,
+                'username': username,
+                'email': email,
+                'password': password
+            }
+            users_collection.insert_one(user_data)
+            message = 'You have successfully registered!'
+
+    return render_template('register.html', message=message)
 
 @app.route("/search_results", methods=["GET"])
 def search_results():
