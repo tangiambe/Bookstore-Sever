@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Book</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Create Book</h2>
+        <form action="{{ url_for('create_book') }}" method="POST">
+            <!-- Form fields for creating a book... -->
+            <button type="submit" class="btn btn-primary">Create Book</button>
+        </form>
+    </div>
+</body>
+</html>

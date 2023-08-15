@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bookstore Management</title>
-    <!-- Include Bootstrap CSS -->
+    <title>Bookstore</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bookstore Management</a>
+        <a class="navbar-brand" href="#">Bookstore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="collapse" href="#loginForm" role="button" aria-expanded="false" aria-controls="loginForm">Login</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    
-    <!-- Main Content -->
-    <div class="container mt-4">
-        <h1>Welcome to the Bookstore</h1>
-        <p class="lead">Browse and manage our collection of books.</p>
-        
+
+    <div class="container mt-5">
+        <!-- Login Form -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Book Title</h5>
-                        <p class="card-text">Author: John Doe</p>
-                        <a href="#" class="btn btn-primary">Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Book Title</h5>
-                        <p class="card-text">Author: Jane Smith</p>
-                        <a href="#" class="btn btn-primary">Details</a>
+            <div class="col-md-6 offset-md-3">
+                <div class="collapse" id="loginForm">
+                    <div class="card card-body">
+                        <h2>Login</h2>
+                        <form action="{{ url_for('login') }}" method="POST">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Search Menu -->
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                <h2>Search Books</h2>
+                <form action="{{ url_for('search_books') }}" method="GET">
+                    <div class="form-group">
+                        <label for="searchTerm">Search by Name, Author, or ISBN</label>
+                        <input type="text" class="form-control" id="searchTerm" name="searchTerm" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="category">Category</label>
+                        <select class="form-control" id="category" name="category">
+                            <option value="">All Categories</option>
+                            <!-- Populate categories dynamically from your database -->
+                            <option value="1">Fiction</option>
+                            <option value="2">Non-Fiction</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
     </div>
-    
-    <!-- Include Bootstrap JavaScript -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
