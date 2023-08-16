@@ -24,6 +24,7 @@ def is_user_logged_in():
 @app.route('/index')
 def index():
     first_name = None
+    last_name = None
     user_logged_in = is_user_logged_in()
     if user_logged_in:
         # Fetch the username based on user_id
@@ -57,6 +58,7 @@ def logout():
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     message = ''
+    first_name = None
     if request.method == 'POST':
         first_name = request.form.get('first_name')
         last_name = request.form.get('last_name')
