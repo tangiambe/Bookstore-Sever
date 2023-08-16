@@ -1,0 +1,143 @@
+,id,title,price,year,quantity,rating,category_id,author_id
+0,38572179,Atonement,14.0,2003,77,100,1,31
+1,60502935,Going Postal,8.0,2005,16,100,5,22
+2,60540753,Patron Saint of Liars,14.0,2003,70,100,3,16
+3,60855925,The Color of Magic,14.0,2005,38,100,5,22
+4,60934417,Bel Canto: A Novel,14.0,2002,54,100,3,16
+5,60958332,The Language Instinct: How the Mind Creates Language,11.0,2000,45,100,4,100
+6,60958405,Words and Rules: The Ingredients of Language,15.0,2000,77,100,4,100
+7,61020648,Guards! Guards!,8.0,2001,26,100,5,22
+8,61020656,Pyramids,8.0,2001,87,100,5,22
+9,61092177,Small Gods,8.0,1994,2,100,5,22
+10,61161721,Unseen Academicals,8.0,2010,15,100,5,22
+11,66214750,Twelve Times Blessed,26.0,2003,70,100,1,90
+12,67463442,On Human Nature,19.0,1988,34,100,4,40
+13,67976867,Consilience: The Unity of Knowledge,15.0,1999,77,100,4,40
+14,71414339,"Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",19.0,2003,70,100,7,74
+15,72222743,A+ Certification All-in-One Exam Guide,60.0,2002,94,100,6,69
+16,72227710,How To Do Everything with Your Tablet PC,17.0,2003,45,100,6,101
+17,72227885,SQL Server 2000 for Experienced DBA's,35.0,2003,25,100,6,30
+18,72294337,Financial Markets & Corporate Strategy,123.0,2001,66,100,7,93
+19,72294337,Financial Markets & Corporate Strategy,123.0,2001,66,100,7,49
+20,72315318,Analysis for Financial Management,79.0,2000,2,100,7,38
+21,130323519,Financial Reporting and Analysis ,127.0,2001,46,100,7,94
+22,130323519,Financial Reporting and Analysis ,127.0,2001,46,100,7,70
+23,130323519,Financial Reporting and Analysis ,127.0,2001,46,100,7,61
+24,130998516,Real World FPGA Design with Verilog,83.0,1999,22,100,6,56
+25,140077022,White Noise ,14.0,1991,89,100,1,81
+26,142001740,The Secret Life of Bees,14.0,2003,46,100,1,3
+27,156006219,The Magician's Assistant,13.0,1998,33,100,3,16
+28,156158648,The New City Home: Smart Solutions for Metro Living,25.0,2003,30,100,2,54
+29,201615762,The Guru's Guide to Transact-SQL,38.0,2000,96,100,6,2
+30,262024829,Financial Modeling ,70.0,2000,48,100,7,18
+31,262232197,Econometric Analysis of Cross Section and Panel Data,75.0,2001,78,100,7,83
+32,262521415,Numerical Techniques in Finance,35.0,1989,5,100,7,80
+33,312243022,The Hours,3.0,2000,43,100,1,35
+34,312276702,Jinn: A Novel,25.0,2003,49,100,8,63
+35,312287941,The Girl in the Red Coat: A Memoir,26.0,2002,16,100,1,84
+36,312311354,The Pianist,13.0,2003,64,100,1,64
+37,316096199,Lucky: A Memoir,12.0,2002,54,100,1,97
+38,316602051,The Jester,28.0,2003,34,100,1,10
+39,316602051,The Jester,28.0,2003,34,100,1,23
+40,316666343,The Lovely Bones: A Novel,22.0,2002,31,100,1,97
+41,321125169,ColdFusion MX Web Application Construction Kit,38.0,2002,42,100,6,79
+42,321125169,ColdFusion MX Web Application Construction Kit,38.0,2002,42,100,6,68
+43,321125169,ColdFusion MX Web Application Construction Kit,38.0,2002,42,100,6,45
+44,321125169,ColdFusion MX Web Application Construction Kit,38.0,2002,42,100,6,9
+45,324107501,Advanced Accounting,113.0,2001,5,100,7,19
+46,324107501,Advanced Accounting,113.0,2001,5,100,7,57
+47,324107501,Advanced Accounting,113.0,2001,5,100,7,17
+48,324113641,Introductory Econometrics: A Modern Approach,108.0,2002,66,100,7,83
+49,345336895,Broca's Brain: Reflections on the Romance of Science,7.0,1993,56,100,4,43
+50,345376595,Pale Blue Dot: A Vision of the Human Future in Space,13.0,1997,32,100,4,43
+51,345409469,The Demon-Haunted World: Science As a Candle in the Dark,15.0,1997,86,100,4,43
+52,345452089,The Vampire's Violin,7.0,2003,81,100,8,52
+53,373218192,Engaging The Enemy,8.0,2003,6,100,1,41
+54,373218257,Love By Design,15.0,2003,94,100,1,41
+55,373272839,Letters to Kelly,5.0,2003,26,100,3,53
+56,375508325,Cosmos,35.0,2002,59,100,4,43
+57,375703764,House of Leaves,20.0,2000,98,100,8,8
+58,385494149,Enduring Love,13.0,1999,31,100,1,31
+59,385494246,Amsterdam,12.0,1999,57,100,1,31
+60,385494327,Black Dogs,14.0,1999,42,100,1,31
+61,385504470,Lullaby: A Novel,17.0,2002,33,100,8,4
+62,393318486,How the Mind Works,18.0,1999,45,100,4,100
+63,393319407,The Diversity of Life,17.0,1999,23,100,4,40
+64,394739698,A Field Guide to American Houses,25.0,1984,37,100,2,98
+65,394739698,A Field Guide to American Houses,25.0,1984,37,100,2,48
+66,399149392,Chesapeake Blue,26.0,2002,41,100,1,41
+67,399149848,Birthright,26.0,2003,16,100,1,41
+68,425188361,Cerulean Sins,16.0,2003,26,100,1,44
+69,440237556,The Dark Highlander,7.0,2002,69,100,3,96
+70,446527793,The Guardian,25.0,2003,13,100,1,62
+71,446606812,Message in a Bottle,8.0,1999,13,100,1,62
+72,446608955,A Walk to Remember,7.0,2000,22,100,1,62
+73,446676098,The Notebook,13.0,1999,37,100,1,62
+74,471200247,The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling,50.0,2002,23,100,6,6
+75,471200247,The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling,50.0,2002,23,100,6,55
+76,471286168,"Architecture: Form, Space, and Order",40.0,1996,64,100,2,14
+77,471288217,A Visual Dictionary of Architecture,40.0,1996,9,100,2,14
+78,471358983,Building Construction Illustrated,40.0,2000,26,100,2,14
+79,471358983,Building Construction Illustrated,40.0,2000,26,100,2,89
+80,471363049,Intermediate Accounting,139.0,2001,22,100,7,36
+81,471363049,Intermediate Accounting,139.0,2001,22,100,7,95
+82,471363049,Intermediate Accounting,139.0,2001,22,100,7,42
+83,471391123,Beyond Coso : Internal Control to Enhance Corporate Governance,50.0,2000,33,100,7,65
+84,517576600,Color: Natural Palettes for Painted Rooms,50.0,1992,71,100,2,73
+85,517576600,Color: Natural Palettes for Painted Rooms,50.0,1992,71,100,2,77
+86,517576600,Color: Natural Palettes for Painted Rooms,50.0,1992,71,100,2,26
+87,517576600,Color: Natural Palettes for Painted Rooms,50.0,1992,71,100,2,71
+88,596004478,Google Hacks,25.0,2003,52,100,6,21
+89,596004478,Google Hacks,25.0,2003,52,100,6,82
+90,609610570,Execution: The Discipline of Getting Things Done,28.0,2002,1,100,9,5
+91,609610570,Execution: The Discipline of Getting Things Done,28.0,2002,1,100,9,75
+92,609610570,Execution: The Discipline of Getting Things Done,28.0,2002,1,100,9,88
+93,670031518,The Blank Slate: The Modern Denial of Human Nature,28.0,2002,91,100,4,100
+94,671004107,Contact,8.0,1997,70,100,4,43
+95,679450785,The Future of Life,22.0,2002,59,100,4,40
+96,679722955,The Names,11.0,1989,17,100,1,81
+97,684843285,ON FOOD AND COOKING,22.0,1997,76,100,4,11
+98,684848155,UNDERWORLD: A NOVEL,16.0,1998,74,100,1,81
+99,735712123,MySQL,35.0,2003,96,100,6,72
+100,735712360,The Photoshop Book for Digital Photographers,40.0,2003,68,100,6,7
+101,735712379,Photoshop 7 Down & Dirty Tricks,40.0,2002,94,100,6,7
+102,735713170,Mac OS X v. 10.2 Jaguar Killer Tips,30.0,2002,82,100,6,7
+103,738206679,Linked: The New Science of Networks,26.0,2002,50,100,4,15
+104,743206061,The Second Time Around,26.0,2003,4,100,7,58
+105,743222008,The Vanished Man: A Lincoln Rhyme Novel,25.0,2003,18,100,1,32
+106,743244249,Cosmopolis: A Novel,25.0,2003,20,100,1,81
+107,743455967,On Writing,8.0,2002,59,100,8,25
+108,743457358,Everything's Eventual: 14 Dark Tales,8.0,2002,26,100,8,25
+109,743467523,Dreamcatcher,8.0,2003,77,100,8,25
+110,747532699,Harry Potter and the Philosopher's Stone,25.0,1997,20,100,10,1000
+111,782140114,Access 2002 Developer's Handbook Set,70.0,2001,73,100,6,50
+112,782140114,Access 2002 Developer's Handbook Set,70.0,2001,73,100,6,91
+113,782140114,Access 2002 Developer's Handbook Set,70.0,2001,73,100,6,60
+114,782140661,OCP: Oracle9i Certification Kit,105.0,2002,40,100,6,12
+115,782140661,OCP: Oracle9i Certification Kit,105.0,2002,40,100,6,78
+116,782140661,OCP: Oracle9i Certification Kit,105.0,2002,40,100,6,29
+117,782140661,OCP: Oracle9i Certification Kit,105.0,2002,40,100,6,66
+118,782140661,OCP: Oracle9i Certification Kit,105.0,2002,40,100,6,39
+119,787960756,The Five Dysfunctions of a Team: A Leadership Fable,13.0,2002,44,100,7,87
+120,805317554,Fundamentals of Database Systems ,95.0,1999,34,100,6,24
+121,805317554,Fundamentals of Database Systems ,95.0,1999,34,100,6,28
+122,865659982,Composers' Houses,50.0,1998,47,100,2,20
+123,865659982,Composers' Houses,50.0,1998,47,100,2,46
+124,865659982,Composers' Houses,50.0,1998,47,100,2,37
+125,972263608,Creating Documents with BusinessObjects 5.1,99.0,2002,57,100,6,92
+126,1558605525,Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations,50.0,1999,46,100,6,1
+127,1558605525,Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations,50.0,1999,46,100,6,47
+128,1558606432,Persuasive Technology: Using Computers to Change What We Think and Do,35.0,2002,53,100,6,76
+129,1561584029,The Complete Illustrated Guide to Furniture and Cabinet Construction,40.0,2001,93,100,2,99
+130,1561586196,Building a Shed,20.0,2003,58,100,2,67
+131,1565924916,Ldap System Administration,40.0,2003,27,100,6,59
+132,1579550088,A New Kind of Science,45.0,2002,47,100,4,34
+133,1579902944,Choosing & Using Hand Tools,20.0,2002,37,100,2,99
+134,1586851322,Prefab,40.0,2002,99,100,2,13
+135,1586851322,Prefab,40.0,2002,99,100,2,51
+136,1586851357,Cabins & Camps,60.0,2002,19565498,89,2,27
+137,1590520734,The Rescuer: The O'Malley Series,13.0,2003,64,100,3,33
+138,1861004486,Professional SQL Server 2000 Programming,42.0,2000,92,100,6,86
+139,1880418568,Wolves of the Calla ,35.0,2003,28,100,8,25
+140,1880418568,Wolves of the Calla ,35.0,2003,28,100,8,85
+141,1880418569,Super Smash Bros. Ultimate: Official Guide,62.0,2018,125,99,11,1001
