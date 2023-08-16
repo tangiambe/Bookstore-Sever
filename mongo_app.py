@@ -120,8 +120,7 @@ def search_results():
     if search_term:
         query["$or"] = [
             {"title": {"$regex": search_term, "$options": "i"}},
-            {"author": {"$regex": search_term, "$options": "i"}},
-            {"isbn": {"$regex": search_term, "$options": "i"}}
+            {"id": {"$regex": search_term, "$options": "i"}}
         ]
     if category:
         query["category_id"] = int(category)  # Assuming category_id is an integer field
