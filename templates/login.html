@@ -7,6 +7,12 @@
 <body>
     {% include 'nav_menu.html' %} <!-- Include the navigation menu -->
 
+	{% if registration_success %}
+	<div class="alert alert-success">
+		You have successfully registered. You can now log in.
+	</div>
+	{% endif %}
+	
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">

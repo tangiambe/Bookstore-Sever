@@ -1,8 +1,9 @@
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, request, redirect, url_for, session, flash
 from pymongo import MongoClient
 import re
 import bcrypt
 from bson import ObjectId
+import time
  
 app = Flask(__name__)
 
@@ -33,6 +34,8 @@ def index():
  
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    registration_success = request.args.get('registration_success')
+    
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
@@ -42,7 +45,8 @@ def login():
             return redirect(url_for('index'))
         else:
             return render_template('login.html', message='Invalid credentials')
-    return render_template('login.html')
+    return render_template('login.html', registration_success=registration_success)
+
  
 @app.route('/logout')
 def logout():
@@ -76,6 +80,8 @@ def register():
             }
             users_collection.insert_one(user_data)
             message = 'You have successfully registered!'
+            
+            return redirect(url_for('login', registration_success=True))
 
     return render_template('register.html', message=message)
 
@@ -169,7 +175,7 @@ def create_book():
         # Connect the author to the book in bookauthor_collection
         bookauthor_collection.insert_one({"author_id": author_id, "book_id": book_id})
         message = 'Book created successfully!'
-        
+
         categories = categories_collection.find()
         return render_template("create_book.html", message=message, categories=categories, user_logged_in=user_logged_in, username=username)
 
