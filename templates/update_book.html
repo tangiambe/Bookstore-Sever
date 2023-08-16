@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Book</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Update Book</h2>
+        <form action="{{ url_for('update_book', book_id=book_id) }}" method="POST">
+            <!-- Form fields for updating the book... -->
+            <button type="submit" class="btn btn-primary">Update Book</button>
+        </form>
+    </div>
+</body>
+</html>

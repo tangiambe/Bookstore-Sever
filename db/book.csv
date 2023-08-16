@@ -1,0 +1,118 @@
+_id,id,title,price,year,quantity,rating,category_id
+64dbb1fdb4b01a078fc8c327,38572179,Atonement,14,2003,77,100,1
+64dbb1fdb4b01a078fc8c328,60502935,Going Postal,8,2005,16,100,5
+64dbb1fdb4b01a078fc8c329,60540753,Patron Saint of Liars,14,2003,70,100,3
+64dbb1fdb4b01a078fc8c32a,60855925,The Color of Magic,14,2005,38,100,5
+64dbb1fdb4b01a078fc8c32b,60934417,Bel Canto: A Novel,14,2002,54,100,3
+64dbb1fdb4b01a078fc8c32c,60958332,The Language Instinct: How the Mind Creates Language,11,2000,45,100,4
+64dbb1fdb4b01a078fc8c32d,60958405,Words and Rules: The Ingredients of Language,15,2000,77,100,4
+64dbb1fdb4b01a078fc8c32e,61020648,Guards! Guards!,8,2001,26,100,5
+64dbb1fdb4b01a078fc8c32f,61020656,Pyramids,8,2001,87,100,5
+64dbb1fdb4b01a078fc8c330,61092177,Small Gods,8,1994,2,100,5
+64dbb1fdb4b01a078fc8c331,61161721,Unseen Academicals,8,2010,15,100,5
+64dbb1fdb4b01a078fc8c332,66214750,Twelve Times Blessed,26,2003,70,100,1
+64dbb1fdb4b01a078fc8c333,67463442,On Human Nature,19,1988,34,100,4
+64dbb1fdb4b01a078fc8c334,67976867,Consilience: The Unity of Knowledge,15,1999,77,100,4
+64dbb1fdb4b01a078fc8c335,71414339,"Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",19,2003,70,100,7
+64dbb1fdb4b01a078fc8c336,72222743,A+ Certification All-in-One Exam Guide,60,2002,94,100,6
+64dbb1fdb4b01a078fc8c337,72227710,How To Do Everything with Your Tablet PC,17,2003,45,100,6
+64dbb1fdb4b01a078fc8c338,72227885,SQL Server 2000 for Experienced DBA's,35,2003,25,100,6
+64dbb1fdb4b01a078fc8c339,72294337,Financial Markets & Corporate Strategy,123,2001,66,100,7
+64dbb1fdb4b01a078fc8c33a,72315318,Analysis for Financial Management,79,2000,2,100,7
+64dbb1fdb4b01a078fc8c33b,130323519,Financial Reporting and Analysis ,127,2001,46,100,7
+64dbb1fdb4b01a078fc8c33c,130998516,Real World FPGA Design with Verilog,83,1999,22,100,6
+64dbb1fdb4b01a078fc8c33d,140077022,White Noise ,14,1991,89,100,1
+64dbb1fdb4b01a078fc8c33e,142001740,The Secret Life of Bees,14,2003,46,100,1
+64dbb1fdb4b01a078fc8c33f,156006219,The Magician's Assistant,13,1998,33,100,3
+64dbb1fdb4b01a078fc8c340,156158648,The New City Home: Smart Solutions for Metro Living,25,2003,30,100,2
+64dbb1fdb4b01a078fc8c341,201615762,The Guru's Guide to Transact-SQL,38,2000,96,100,6
+64dbb1fdb4b01a078fc8c342,262024829,Financial Modeling ,70,2000,48,100,7
+64dbb1fdb4b01a078fc8c343,262232197,Econometric Analysis of Cross Section and Panel Data,75,2001,78,100,7
+64dbb1fdb4b01a078fc8c344,262521415,Numerical Techniques in Finance,35,1989,5,100,7
+64dbb1fdb4b01a078fc8c345,312243022,The Hours,3,2000,43,100,1
+64dbb1fdb4b01a078fc8c346,312276702,Jinn: A Novel,25,2003,49,100,8
+64dbb1fdb4b01a078fc8c347,312287941,The Girl in the Red Coat: A Memoir,26,2002,16,100,1
+64dbb1fdb4b01a078fc8c348,312311354,The Pianist,13,2003,64,100,1
+64dbb1fdb4b01a078fc8c349,316096199,Lucky: A Memoir,12,2002,54,100,1
+64dbb1fdb4b01a078fc8c34a,316602051,The Jester,28,2003,34,100,1
+64dbb1fdb4b01a078fc8c34b,316666343,The Lovely Bones: A Novel,22,2002,31,100,1
+64dbb1fdb4b01a078fc8c34c,321125169,ColdFusion MX Web Application Construction Kit,38,2002,42,100,6
+64dbb1fdb4b01a078fc8c34d,324107501,Advanced Accounting,113,2001,5,100,7
+64dbb1fdb4b01a078fc8c34e,324113641,Introductory Econometrics: A Modern Approach,108,2002,66,100,7
+64dbb1fdb4b01a078fc8c34f,345336895,Broca's Brain: Reflections on the Romance of Science,7,1993,56,100,4
+64dbb1fdb4b01a078fc8c350,345376595,Pale Blue Dot: A Vision of the Human Future in Space,13,1997,32,100,4
+64dbb1fdb4b01a078fc8c351,345409469,The Demon-Haunted World: Science As a Candle in the Dark,15,1997,86,100,4
+64dbb1fdb4b01a078fc8c352,345452089,The Vampire's Violin,7,2003,81,100,8
+64dbb1fdb4b01a078fc8c353,373218192,Engaging The Enemy,8,2003,6,100,1
+64dbb1fdb4b01a078fc8c354,373218257,Love By Design,15,2003,94,100,1
+64dbb1fdb4b01a078fc8c355,373272839,Letters to Kelly,5,2003,26,100,3
+64dbb1fdb4b01a078fc8c356,375508325,Cosmos,35,2002,59,100,4
+64dbb1fdb4b01a078fc8c357,375703764,House of Leaves,20,2000,98,100,8
+64dbb1fdb4b01a078fc8c358,385494149,Enduring Love,13,1999,31,100,1
+64dbb1fdb4b01a078fc8c359,385494246,Amsterdam,12,1999,57,100,1
+64dbb1fdb4b01a078fc8c35a,385494327,Black Dogs,14,1999,42,100,1
+64dbb1fdb4b01a078fc8c35b,385504470,Lullaby: A Novel,17,2002,33,100,8
+64dbb1fdb4b01a078fc8c35c,393318486,How the Mind Works,18,1999,45,100,4
+64dbb1fdb4b01a078fc8c35d,393319407,The Diversity of Life,17,1999,23,100,4
+64dbb1fdb4b01a078fc8c35e,394739698,A Field Guide to American Houses,25,1984,37,100,2
+64dbb1fdb4b01a078fc8c35f,399149392,Chesapeake Blue,26,2002,41,100,1
+64dbb1fdb4b01a078fc8c360,399149848,Birthright,26,2003,16,100,1
+64dbb1fdb4b01a078fc8c361,425188361,Cerulean Sins,16,2003,26,100,1
+64dbb1fdb4b01a078fc8c362,440237556,The Dark Highlander,7,2002,69,100,3
+64dbb1fdb4b01a078fc8c363,446527793,The Guardian,25,2003,13,100,1
+64dbb1fdb4b01a078fc8c364,446606812,Message in a Bottle,8,1999,13,100,1
+64dbb1fdb4b01a078fc8c365,446608955,A Walk to Remember,7,2000,22,100,1
+64dbb1fdb4b01a078fc8c366,446676098,The Notebook,13,1999,37,100,1
+64dbb1fdb4b01a078fc8c367,471200247,The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling,50,2002,23,100,6
+64dbb1fdb4b01a078fc8c368,471286168,"Architecture: Form, Space, and Order",40,1996,64,100,2
+64dbb1fdb4b01a078fc8c369,471288217,A Visual Dictionary of Architecture,40,1996,9,100,2
+64dbb1fdb4b01a078fc8c36a,471358983,Building Construction Illustrated,40,2000,26,100,2
+64dbb1fdb4b01a078fc8c36b,471363049,Intermediate Accounting,139,2001,22,100,7
+64dbb1fdb4b01a078fc8c36c,471391123,Beyond Coso : Internal Control to Enhance Corporate Governance,50,2000,33,100,7
+64dbb1fdb4b01a078fc8c36d,517576600,Color: Natural Palettes for Painted Rooms,50,1992,71,100,2
+64dbb1fdb4b01a078fc8c36e,596004478,Google Hacks,25,2003,52,100,6
+64dbb1fdb4b01a078fc8c36f,609610570,Execution: The Discipline of Getting Things Done,28,2002,1,100,9
+64dbb1fdb4b01a078fc8c370,670031518,The Blank Slate: The Modern Denial of Human Nature,28,2002,91,100,4
+64dbb1fdb4b01a078fc8c371,671004107,Contact,8,1997,70,100,4
+64dbb1fdb4b01a078fc8c372,679450785,The Future of Life,22,2002,59,100,4
+64dbb1fdb4b01a078fc8c373,679722955,The Names,11,1989,17,100,1
+64dbb1fdb4b01a078fc8c374,684843285,ON FOOD AND COOKING,22,1997,76,100,4
+64dbb1fdb4b01a078fc8c375,684848155,UNDERWORLD: A NOVEL,16,1998,74,100,1
+64dbb1fdb4b01a078fc8c376,735712123,MySQL,35,2003,96,100,6
+64dbb1fdb4b01a078fc8c377,735712360,The Photoshop Book for Digital Photographers,40,2003,68,100,6
+64dbb1fdb4b01a078fc8c378,735712379,Photoshop 7 Down & Dirty Tricks,40,2002,94,100,6
+64dbb1fdb4b01a078fc8c379,735713170,Mac OS X v. 10.2 Jaguar Killer Tips,30,2002,82,100,6
+64dbb1fdb4b01a078fc8c37a,738206679,Linked: The New Science of Networks,26,2002,50,100,4
+64dbb1fdb4b01a078fc8c37b,743206061,The Second Time Around,26,2003,4,100,7
+64dbb1fdb4b01a078fc8c37c,743222008,The Vanished Man: A Lincoln Rhyme Novel,25,2003,18,100,1
+64dbb1fdb4b01a078fc8c37d,743244249,Cosmopolis: A Novel,25,2003,20,100,1
+64dbb1fdb4b01a078fc8c37e,743455967,On Writing,8,2002,59,100,8
+64dbb1fdb4b01a078fc8c37f,743457358,Everything's Eventual: 14 Dark Tales,8,2002,26,100,8
+64dbb1fdb4b01a078fc8c380,743467523,Dreamcatcher,8,2003,77,100,8
+64dbb1fdb4b01a078fc8c381,747532699,Harry Potter and the Philosopher's Stone,25,1997,20,100,10
+64dbb1fdb4b01a078fc8c382,782140114,Access 2002 Developer's Handbook Set,70,2001,73,100,6
+64dbb1fdb4b01a078fc8c383,782140661,OCP: Oracle9i Certification Kit,105,2002,40,100,6
+64dbb1fdb4b01a078fc8c384,787960756,The Five Dysfunctions of a Team: A Leadership Fable,13,2002,44,100,7
+64dbb1fdb4b01a078fc8c385,805317554,Fundamentals of Database Systems ,95,1999,34,100,6
+64dbb1fdb4b01a078fc8c386,865659982,Composers' Houses,50,1998,47,100,2
+64dbb1fdb4b01a078fc8c387,972263608,Creating Documents with BusinessObjects 5.1,99,2002,57,100,6
+64dbb1fdb4b01a078fc8c388,1558605525,Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations,50,1999,46,100,6
+64dbb1fdb4b01a078fc8c389,1558606432,Persuasive Technology: Using Computers to Change What We Think and Do,35,2002,53,100,6
+64dbb1fdb4b01a078fc8c38a,1561584029,The Complete Illustrated Guide to Furniture and Cabinet Construction,40,2001,93,100,2
+64dbb1fdb4b01a078fc8c38b,1561586196,Building a Shed,20,2003,58,100,2
+64dbb1fdb4b01a078fc8c38c,1565924916,Ldap System Administration,40,2003,27,100,6
+64dbb1fdb4b01a078fc8c38d,1579550088,A New Kind of Science,45,2002,47,100,4
+64dbb1fdb4b01a078fc8c38e,1579902944,Choosing & Using Hand Tools,20,2002,37,100,2
+64dbb1fdb4b01a078fc8c38f,1586851322,Prefab,40,2002,99,100,2
+64dbb1fdb4b01a078fc8c390,1586851357,Cabins & Camps,60,2002,19565498,89,2
+64dbb1fdb4b01a078fc8c391,1590520734,The Rescuer: The O'Malley Series,13,2003,64,100,3
+64dbb1fdb4b01a078fc8c392,1861004486,Professional SQL Server 2000 Programming,42,2000,92,100,6
+64dbb1fdb4b01a078fc8c393,1880418568,Wolves of the Calla ,35,2003,28,100,8
+64dbb1fdb4b01a078fc8c394,1880418569,Super Smash Bros. Ultimate: Official Guide,62,2018,125,99,11
+64dc72c9345e6380b13b795c,1408855895,Harry Potter and the Sorcerer's Stone,10,2015,12,0,10
+64dc74a5345e6380b13b795f,7777777777,Cody's Book,14.99,2023,1,0,6
+64dc752a345e6380b13b7962,1234567890,Cody's Book 2,19.99,2021,1,0,6
+64dc7663a55979f89f92c603,1,1,1,1,1,0,1
+64dc76b58a39c5bf696cfa88,1,1,1,1,1,0,1
+64dc7723f5987a1d0295e468,1,1,1,1,1,0,1
+64dc775d156613ac0ec460ec,1,1,1,1,1,0,1
