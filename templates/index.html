@@ -11,7 +11,7 @@
         <!-- Your content here -->
         <h1>Welcome to the Bookstore</h1>
         {% if user_logged_in %}
-            <p>You are logged in.</p>
+            <p>Welcome {{ first_name }} {{ last_name }}. Use the user menu dropdown to get started.</p>
         {% else %}
             <p>Please log in to access additional features.</p>
         {% endif %}

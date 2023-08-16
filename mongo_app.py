@@ -23,14 +23,15 @@ def is_user_logged_in():
 
 @app.route('/index')
 def index():
-    username = None
+    first_name = None
     user_logged_in = is_user_logged_in()
     if user_logged_in:
         # Fetch the username based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
-            username = user.get('username')
-    return render_template('index.html', user_logged_in=user_logged_in, username=username)
+            first_name = user.get('first_name')
+            last_name = user.get('last_name')
+    return render_template('index.html', user_logged_in=user_logged_in, first_name=first_name, last_name=last_name)
  
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -83,33 +84,33 @@ def register():
             
             return redirect(url_for('login', registration_success=True))
 
-    return render_template('register.html', message=message)
+    return render_template('register.html', message=message, first_name=first_name)
 
 #######
 @app.route("/search_books", methods=["GET"])
 def search_books():
     user_logged_in = is_user_logged_in()
-    username = None
+    first_name = None
     if user_logged_in:
         # Fetch the username based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
-            username = user.get('username')
+            first_name = user.get('first_name')
 
     # Retrieve categories from categories_collection
     categories = categories_collection.find()
     
-    return render_template("search_books.html", user_logged_in=user_logged_in, username=username, categories=categories)
+    return render_template("search_books.html", user_logged_in=user_logged_in, first_name=first_name, categories=categories)
 
 @app.route("/search_results", methods=["GET"])
 def search_results():
     user_logged_in = is_user_logged_in()
-    username = None
+    first_name = None
     if user_logged_in:
-        # Fetch the username based on user_id
+        # Fetch the first_name based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
-            username = user.get('username')
+            first_name = user.get('first_name')
     
     search_term = request.args.get('searchTerm')
     category = request.args.get('category')
@@ -128,18 +129,18 @@ def search_results():
     # Retrieve book data from MongoDB based on the query
     books = books_collection.find(query)
     
-    return render_template("search_results.html", books=books, user_logged_in=user_logged_in, username=username)
+    return render_template("search_results.html", books=books, user_logged_in=user_logged_in, first_name=first_name)
 
 
 @app.route("/create_book", methods=["GET", "POST"])
 def create_book():
-    username = None
+    first_name = None
     user_logged_in = is_user_logged_in()
     if user_logged_in:
-        # Fetch the username based on user_id
+        # Fetch the first_name based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
-            username = user.get('username')
+            first_name = user.get('first_name')
 
     if not user_logged_in:
         return redirect(url_for('login'))
@@ -177,33 +178,33 @@ def create_book():
         message = 'Book created successfully!'
 
         categories = categories_collection.find()
-        return render_template("create_book.html", message=message, categories=categories, user_logged_in=user_logged_in, username=username)
+        return render_template("create_book.html", message=message, categories=categories, user_logged_in=user_logged_in, first_name=first_name)
 
     categories = categories_collection.find()
-    return render_template("create_book.html", categories=categories, user_logged_in=user_logged_in, username=username)
+    return render_template("create_book.html", categories=categories, user_logged_in=user_logged_in, first_name=first_name)
 
 
 @app.route('/update_book')
 def update_book():
-    username = None
+    first_name = None
     user_logged_in = is_user_logged_in()
     if user_logged_in:
         # Fetch the username based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
-            username = user.get('username')
-    return render_template('update_book.html', user_logged_in=user_logged_in, username=username)
+            first_name = user.get('first_name')
+    return render_template('update_book.html', user_logged_in=user_logged_in, first_name=first_name)
 
 @app.route('/delete_book')
 def delete_book():
-    username = None
+    first_name = None
     user_logged_in = is_user_logged_in()
     if user_logged_in:
         # Fetch the username based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
-            username = user.get('username')
-    return render_template('delete_book.html', user_logged_in=user_logged_in, username=username)
+            first_name = user.get('first_name')
+    return render_template('delete_book.html', user_logged_in=user_logged_in, first_name=first_name)
    
 if __name__ == "__main__":
     app.run(host='localhost', port=5001, debug=True)
