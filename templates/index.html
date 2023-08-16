@@ -5,67 +5,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bookstore</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="collapse" href="#loginForm" role="button" aria-expanded="false" aria-controls="loginForm">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    {% include 'nav_menu.html' %}
 
     <div class="container mt-5">
-        <!-- Login Form -->
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
-                <div class="collapse" id="loginForm">
-                    <div class="card card-body">
-                        <h2>Login</h2>
-                        <form action="{{ url_for('login') }}" method="POST">
-                            <div class="form-group">
-                                <label for="username">Username</label>
-                                <input type="text" class="form-control" id="username" name="username" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" name="password" required>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Login</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Search Menu -->
-        <div class="row mt-5">
-            <div class="col-md-6 offset-md-3">
-                <h2>Search Books</h2>
-                <form action="{{ url_for('search_results') }}" method="GET">
-                    <div class="form-group">
-                        <label for="searchTerm">Search by Name, Author, or ISBN</label>
-                        <input type="text" class="form-control" id="searchTerm" name="searchTerm" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="category">Category</label>
-                        <select class="form-control" id="category" name="category">
-                            <option value="">All Categories</option>
-                            <!-- Populate categories dynamically from your database -->
-                            <option value="1">Fiction</option>
-                            <option value="2">Non-Fiction</option>
-                            <!-- Add more options as needed -->
-                        </select>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Search</button>
-                </form>
-            </div>
-        </div>
+        <!-- Your content here -->
+        <h1>Welcome to the Bookstore</h1>
+        {% if user_logged_in %}
+            <p>You are logged in.</p>
+        {% else %}
+            <p>Please log in to access additional features.</p>
+        {% endif %}
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

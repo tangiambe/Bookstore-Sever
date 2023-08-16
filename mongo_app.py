@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from pymongo import MongoClient
 import re
+import bcrypt
+from bson import ObjectId
  
 app = Flask(__name__)
 
@@ -8,39 +10,44 @@ app.secret_key = 'xyzsdfg'
 
 # Initialize MongoDB client
 client = MongoClient("mongodb+srv://cody:team2password@books.ondwxvg.mongodb.net/")
-db = client.get_database("bookstore")
-users_collection = db.users
+db = client.get_database("bookstore_db")
+users_collection = db.user
 books_collection = db.book
+categories_collection = db.category
+authors_collection = db.author
+bookauthor_collection = db.bookauthor
+
+def is_user_logged_in():
+    return 'user_id' in session
 
 @app.route('/index')
 def index():
-    return render_template('index.html')
+    username = None
+    user_logged_in = is_user_logged_in()
+    if user_logged_in:
+        # Fetch the username based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            username = user.get('username')
+    return render_template('index.html', user_logged_in=user_logged_in, username=username)
  
-@app.route('/')
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    mesage = ''
-    if request.method == 'POST' and 'email' in request.form and 'password' in request.form:
-        email = request.form['email']
+    if request.method == 'POST':
+        username = request.form['username']
         password = request.form['password']
-        user = users_collection.find_one({'email': email, 'password': password})
-        if user:
-            session['loggedin'] = True
-            session['userid'] = str(user['_id'])
-            session['name'] = user['name']
-            session['email'] = user['email']
-            mesage = 'Logged in successfully !'
-            return render_template('user.html', mesage=mesage)
+        user = users_collection.find_one({'username': username})
+        if user and bcrypt.checkpw(password.encode('utf-8'), user['password']):
+            session['user_id'] = str(user['_id'])
+            return redirect(url_for('index'))
         else:
-            mesage = 'Please enter correct email / password !'
-    return render_template('login.html', mesage=mesage)
+            return render_template('login.html', message='Invalid credentials')
+    return render_template('login.html')
  
 @app.route('/logout')
 def logout():
-    session.pop('loggedin', None)
-    session.pop('userid', None)
-    session.pop('email', None)
-    return redirect(url_for('login'))
+    session.pop('user_id', None)
+    return redirect(url_for('index'))
  
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -59,20 +66,45 @@ def register():
         elif users_collection.find_one({'email': email}):
             message = 'Account already exists!'
         else:
+            hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
             user_data = {
                 'first_name': first_name,
                 'last_name': last_name,
                 'username': username,
                 'email': email,
-                'password': password
+                'password': hashed_password  # Store the hashed password as bytes
             }
             users_collection.insert_one(user_data)
             message = 'You have successfully registered!'
 
     return render_template('register.html', message=message)
 
+#######
+@app.route("/search_books", methods=["GET"])
+def search_books():
+    user_logged_in = is_user_logged_in()
+    username = None
+    if user_logged_in:
+        # Fetch the username based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            username = user.get('username')
+
+    # Retrieve categories from categories_collection
+    categories = categories_collection.find()
+    
+    return render_template("search_books.html", user_logged_in=user_logged_in, username=username, categories=categories)
+
 @app.route("/search_results", methods=["GET"])
 def search_results():
+    user_logged_in = is_user_logged_in()
+    username = None
+    if user_logged_in:
+        # Fetch the username based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            username = user.get('username')
+    
     search_term = request.args.get('searchTerm')
     category = request.args.get('category')
     
@@ -85,13 +117,87 @@ def search_results():
             {"isbn": {"$regex": search_term, "$options": "i"}}
         ]
     if category:
-        query["category"] = category
+        query["category_id"] = int(category)  # Assuming category_id is an integer field
     
     # Retrieve book data from MongoDB based on the query
-    #books_collection = db['book']  # Replace 'books' with your collection name
     books = books_collection.find(query)
     
-    return render_template("search_results.html", books=books)
+    return render_template("search_results.html", books=books, user_logged_in=user_logged_in, username=username)
+
+
+@app.route("/create_book", methods=["GET", "POST"])
+def create_book():
+    username = None
+    user_logged_in = is_user_logged_in()
+    if user_logged_in:
+        # Fetch the username based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            username = user.get('username')
+
+    if not user_logged_in:
+        return redirect(url_for('login'))
+
+    if request.method == "POST":
+        title = request.form.get("title")
+        author_name = request.form.get("author")
+        category_id = int(request.form.get("category"))
+        id = request.form.get("id")
+        price = float(request.form.get("price"))
+        year = int(request.form.get("year"))
+        quantity = int(request.form.get("quantity"))
+
+        # Check if the author already exists in the authors_collection
+        author = authors_collection.find_one({"name": author_name})
+        if not author:
+            author_id = authors_collection.insert_one({"name": author_name}).inserted_id
+        else:
+            author_id = author["_id"]
+
+        # Create the book data
+        book_data = {
+            "title": title,
+            "price": price,
+            "year": year,
+            "quantity": quantity,
+            "rating": "0",  # You can add a default rating
+            "category_id": category_id,
+            "id": id
+        }
+        book_id = books_collection.insert_one(book_data).inserted_id
+
+        # Connect the author to the book in bookauthor_collection
+        bookauthor_collection.insert_one({"author_id": author_id, "book_id": book_id})
+        message = 'Book created successfully!'
+        
+        categories = categories_collection.find()
+        return render_template("create_book.html", message=message, categories=categories, user_logged_in=user_logged_in, username=username)
+
+    categories = categories_collection.find()
+    return render_template("create_book.html", categories=categories, user_logged_in=user_logged_in, username=username)
+
+
+@app.route('/update_book')
+def update_book():
+    username = None
+    user_logged_in = is_user_logged_in()
+    if user_logged_in:
+        # Fetch the username based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            username = user.get('username')
+    return render_template('update_book.html', user_logged_in=user_logged_in, username=username)
+
+@app.route('/delete_book')
+def delete_book():
+    username = None
+    user_logged_in = is_user_logged_in()
+    if user_logged_in:
+        # Fetch the username based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            username = user.get('username')
+    return render_template('delete_book.html', user_logged_in=user_logged_in, username=username)
    
 if __name__ == "__main__":
-    app.run(host='localhost', port=5000, debug=True)
+    app.run(host='localhost', port=5001, debug=True)
