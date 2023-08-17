@@ -34,7 +34,7 @@
                     <tbody>
                         {% for book in books %}
                         <tr>
-                            <td><a href="{{ url_for('book_info', id=book.id) }}" class="btn btn-primary">
+                            <td><a href="{{ url_for('book_info', book_id=book.id) }}" class="btn btn-primary">
                                 Select
                             </button></td>
                             <td>{{ book.id }}</td>
@@ -45,6 +45,8 @@
                             <td>{{ book.rating }}</td>
                             <td>{{ book.category_id }}</td>
                             <td>{{ book.author_id }}</td>
+
+
 
                         </tr>
                         
