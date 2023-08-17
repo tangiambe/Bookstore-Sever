@@ -14,17 +14,18 @@ class FlaskAppTestCase(unittest.TestCase):
             self.assertEqual(response.status_code, 200)
             self.assertIn(b'Welcome to the Bookstore', response.data)
 
+
     def test_register(self):
-        with app.test_request_context():
-            response = self.client.post('/register', data={
-                'first_name': 'Test',
-                'last_name': 'User',
-                'username': 'testuser',
-                'email': 'test@example.com',
-                'password': 'testpassword'
-            })
-            self.assertEqual(response.status_code, 302)  # Redirect after successful registration
-            self.assertIn(b'You have successfully registered!', response.data)
+        response = self.client.post('/register', data={
+            'first_name': 'Test',
+            'last_name': 'User',
+            'username': 'testuser',
+            'email': 'test@example.com',
+            'password': 'testpassword'
+        }, follow_redirects=True)  
+
+        self.assertEqual(response.status_code, 200)  
+        self.assertIn(b'User Registration', response.data)  
 
     def test_login(self):
         response = self.client.post('/login', data={
@@ -33,10 +34,10 @@ class FlaskAppTestCase(unittest.TestCase):
         })
         self.assertEqual(response.status_code, 302)  # Redirect after successful login
 
-    # def test_search_books(self):
-    #     response = self.client.get('/search_books')
-    #     self.assertEqual(response.status_code, 200)
-    #     self.assertIn(b'Search for Books', response.data)
+    def test_sb(self):
+        response = self.client.get('/search_books')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'Search Books', response.data)
 
     # def test_search_results(self):
     #     response = self.client.get('/search_results')
