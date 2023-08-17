@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
 
 @app.route("/")
-def home(name):
+def home():
     return f"_"
 
 
