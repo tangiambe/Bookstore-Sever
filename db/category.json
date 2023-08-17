@@ -1,0 +1,486 @@
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf6f"),
+    "id" : NumberInt(1),
+    "name" : "Literature & Fiction",
+    "book" : {
+        "id" : NumberInt(38572179),
+        "title" : "Atonement",
+        "price" : NumberInt(14),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(77),
+        "rating" : "100",
+        "category_id" : NumberInt(1)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf70"),
+    "id" : NumberInt(2),
+    "name" : "Home Design",
+    "book" : {
+        "id" : NumberInt(156158648),
+        "title" : "The New City Home: Smart Solutions for Metro Living",
+        "price" : NumberInt(25),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(30),
+        "rating" : "100",
+        "category_id" : NumberInt(2)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf71"),
+    "id" : NumberInt(3),
+    "name" : "Romance",
+    "book" : {
+        "id" : NumberInt(60540753),
+        "title" : "Patron Saint of Liars",
+        "price" : NumberInt(14),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(70),
+        "rating" : "100",
+        "category_id" : NumberInt(3)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf72"),
+    "id" : NumberInt(4),
+    "name" : "Science",
+    "book" : {
+        "id" : NumberInt(60958332),
+        "title" : "The Language Instinct: How the Mind Creates Language",
+        "price" : NumberInt(11),
+        "year" : NumberInt(2000),
+        "quantity" : NumberInt(45),
+        "rating" : "100",
+        "category_id" : NumberInt(4)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf73"),
+    "id" : NumberInt(5),
+    "name" : "Fantasy",
+    "book" : {
+        "id" : NumberInt(60502935),
+        "title" : "Going Postal",
+        "price" : NumberInt(8),
+        "year" : NumberInt(2005),
+        "quantity" : NumberInt(16),
+        "rating" : "100",
+        "category_id" : NumberInt(5)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf74"),
+    "id" : NumberInt(6),
+    "name" : "Computer",
+    "book" : {
+        "id" : NumberInt(72222743),
+        "title" : "A+ Certification All-in-One Exam Guide",
+        "price" : NumberInt(60),
+        "year" : NumberInt(2002),
+        "quantity" : NumberInt(94),
+        "rating" : "100",
+        "category_id" : NumberInt(6)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf75"),
+    "id" : NumberInt(7),
+    "name" : "Accounting & Finance",
+    "book" : {
+        "id" : NumberInt(71414339),
+        "title" : "Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",
+        "price" : NumberInt(19),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(70),
+        "rating" : "100",
+        "category_id" : NumberInt(7)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf76"),
+    "id" : NumberInt(8),
+    "name" : "Horror",
+    "book" : {
+        "id" : NumberInt(312276702),
+        "title" : "Jinn: A Novel",
+        "price" : NumberInt(25),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(49),
+        "rating" : "100",
+        "category_id" : NumberInt(8)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf77"),
+    "id" : NumberInt(9),
+    "name" : "Reference",
+    "book" : {
+        "id" : NumberInt(609610570),
+        "title" : "Execution: The Discipline of Getting Things Done",
+        "price" : NumberInt(28),
+        "year" : NumberInt(2002),
+        "quantity" : NumberInt(1),
+        "rating" : "100",
+        "category_id" : NumberInt(9)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf78"),
+    "id" : NumberInt(10),
+    "name" : "Fiction",
+    "book" : {
+        "id" : NumberInt(747532699),
+        "title" : "Harry Potter and the Philosopher's Stone",
+        "price" : NumberInt(25),
+        "year" : NumberInt(1997),
+        "quantity" : NumberInt(20),
+        "rating" : "100",
+        "category_id" : NumberInt(10)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf79"),
+    "id" : NumberInt(11),
+    "name" : "Gaming",
+    "book" : {
+        "id" : NumberInt(1880418569),
+        "title" : "Super Smash Bros. Ultimate: Official Guide",
+        "price" : NumberInt(62),
+        "year" : NumberInt(2018),
+        "quantity" : NumberInt(125),
+        "rating" : "99",
+        "category_id" : NumberInt(11)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bf7a"),
+    "id" : NumberInt(12),
+    "name" : "Science Non-Fiction",
+    "book" : {
+
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0e7"),
+    "id" : NumberInt(1),
+    "name" : "Literature & Fiction",
+    "book" : {
+        "id" : NumberInt(38572179),
+        "title" : "Atonement",
+        "price" : NumberInt(14),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(77),
+        "rating" : "100",
+        "category_id" : NumberInt(1)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0e8"),
+    "id" : NumberInt(2),
+    "name" : "Home Design",
+    "book" : {
+        "id" : NumberInt(156158648),
+        "title" : "The New City Home: Smart Solutions for Metro Living",
+        "price" : NumberInt(25),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(30),
+        "rating" : "100",
+        "category_id" : NumberInt(2)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0e9"),
+    "id" : NumberInt(3),
+    "name" : "Romance",
+    "book" : {
+        "id" : NumberInt(60540753),
+        "title" : "Patron Saint of Liars",
+        "price" : NumberInt(14),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(70),
+        "rating" : "100",
+        "category_id" : NumberInt(3)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0ea"),
+    "id" : NumberInt(4),
+    "name" : "Science",
+    "book" : {
+        "id" : NumberInt(60958332),
+        "title" : "The Language Instinct: How the Mind Creates Language",
+        "price" : NumberInt(11),
+        "year" : NumberInt(2000),
+        "quantity" : NumberInt(45),
+        "rating" : "100",
+        "category_id" : NumberInt(4)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0eb"),
+    "id" : NumberInt(5),
+    "name" : "Fantasy",
+    "book" : {
+        "id" : NumberInt(60502935),
+        "title" : "Going Postal",
+        "price" : NumberInt(8),
+        "year" : NumberInt(2005),
+        "quantity" : NumberInt(16),
+        "rating" : "100",
+        "category_id" : NumberInt(5)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0ec"),
+    "id" : NumberInt(6),
+    "name" : "Computer",
+    "book" : {
+        "id" : NumberInt(72222743),
+        "title" : "A+ Certification All-in-One Exam Guide",
+        "price" : NumberInt(60),
+        "year" : NumberInt(2002),
+        "quantity" : NumberInt(94),
+        "rating" : "100",
+        "category_id" : NumberInt(6)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0ed"),
+    "id" : NumberInt(7),
+    "name" : "Accounting & Finance",
+    "book" : {
+        "id" : NumberInt(71414339),
+        "title" : "Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",
+        "price" : NumberInt(19),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(70),
+        "rating" : "100",
+        "category_id" : NumberInt(7)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0ee"),
+    "id" : NumberInt(8),
+    "name" : "Horror",
+    "book" : {
+        "id" : NumberInt(312276702),
+        "title" : "Jinn: A Novel",
+        "price" : NumberInt(25),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(49),
+        "rating" : "100",
+        "category_id" : NumberInt(8)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0ef"),
+    "id" : NumberInt(9),
+    "name" : "Reference",
+    "book" : {
+        "id" : NumberInt(609610570),
+        "title" : "Execution: The Discipline of Getting Things Done",
+        "price" : NumberInt(28),
+        "year" : NumberInt(2002),
+        "quantity" : NumberInt(1),
+        "rating" : "100",
+        "category_id" : NumberInt(9)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0f0"),
+    "id" : NumberInt(10),
+    "name" : "Fiction",
+    "book" : {
+        "id" : NumberInt(747532699),
+        "title" : "Harry Potter and the Philosopher's Stone",
+        "price" : NumberInt(25),
+        "year" : NumberInt(1997),
+        "quantity" : NumberInt(20),
+        "rating" : "100",
+        "category_id" : NumberInt(10)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0f1"),
+    "id" : NumberInt(11),
+    "name" : "Gaming",
+    "book" : {
+        "id" : NumberInt(1880418569),
+        "title" : "Super Smash Bros. Ultimate: Official Guide",
+        "price" : NumberInt(62),
+        "year" : NumberInt(2018),
+        "quantity" : NumberInt(125),
+        "rating" : "99",
+        "category_id" : NumberInt(11)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c0f2"),
+    "id" : NumberInt(12),
+    "name" : "Science Non-Fiction",
+    "book" : {
+
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c260"),
+    "id" : NumberInt(1),
+    "name" : "Literature & Fiction",
+    "book" : {
+        "id" : NumberInt(38572179),
+        "title" : "Atonement",
+        "price" : NumberInt(14),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(77),
+        "rating" : "100",
+        "category_id" : NumberInt(1)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c261"),
+    "id" : NumberInt(2),
+    "name" : "Home Design",
+    "book" : {
+        "id" : NumberInt(156158648),
+        "title" : "The New City Home: Smart Solutions for Metro Living",
+        "price" : NumberInt(25),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(30),
+        "rating" : "100",
+        "category_id" : NumberInt(2)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c262"),
+    "id" : NumberInt(3),
+    "name" : "Romance",
+    "book" : {
+        "id" : NumberInt(60540753),
+        "title" : "Patron Saint of Liars",
+        "price" : NumberInt(14),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(70),
+        "rating" : "100",
+        "category_id" : NumberInt(3)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c263"),
+    "id" : NumberInt(4),
+    "name" : "Science",
+    "book" : {
+        "id" : NumberInt(60958332),
+        "title" : "The Language Instinct: How the Mind Creates Language",
+        "price" : NumberInt(11),
+        "year" : NumberInt(2000),
+        "quantity" : NumberInt(45),
+        "rating" : "100",
+        "category_id" : NumberInt(4)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c264"),
+    "id" : NumberInt(5),
+    "name" : "Fantasy",
+    "book" : {
+        "id" : NumberInt(60502935),
+        "title" : "Going Postal",
+        "price" : NumberInt(8),
+        "year" : NumberInt(2005),
+        "quantity" : NumberInt(16),
+        "rating" : "100",
+        "category_id" : NumberInt(5)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c265"),
+    "id" : NumberInt(6),
+    "name" : "Computer",
+    "book" : {
+        "id" : NumberInt(72222743),
+        "title" : "A+ Certification All-in-One Exam Guide",
+        "price" : NumberInt(60),
+        "year" : NumberInt(2002),
+        "quantity" : NumberInt(94),
+        "rating" : "100",
+        "category_id" : NumberInt(6)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c266"),
+    "id" : NumberInt(7),
+    "name" : "Accounting & Finance",
+    "book" : {
+        "id" : NumberInt(71414339),
+        "title" : "Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",
+        "price" : NumberInt(19),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(70),
+        "rating" : "100",
+        "category_id" : NumberInt(7)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c267"),
+    "id" : NumberInt(8),
+    "name" : "Horror",
+    "book" : {
+        "id" : NumberInt(312276702),
+        "title" : "Jinn: A Novel",
+        "price" : NumberInt(25),
+        "year" : NumberInt(2003),
+        "quantity" : NumberInt(49),
+        "rating" : "100",
+        "category_id" : NumberInt(8)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c268"),
+    "id" : NumberInt(9),
+    "name" : "Reference",
+    "book" : {
+        "id" : NumberInt(609610570),
+        "title" : "Execution: The Discipline of Getting Things Done",
+        "price" : NumberInt(28),
+        "year" : NumberInt(2002),
+        "quantity" : NumberInt(1),
+        "rating" : "100",
+        "category_id" : NumberInt(9)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c269"),
+    "id" : NumberInt(10),
+    "name" : "Fiction",
+    "book" : {
+        "id" : NumberInt(747532699),
+        "title" : "Harry Potter and the Philosopher's Stone",
+        "price" : NumberInt(25),
+        "year" : NumberInt(1997),
+        "quantity" : NumberInt(20),
+        "rating" : "100",
+        "category_id" : NumberInt(10)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c26a"),
+    "id" : NumberInt(11),
+    "name" : "Gaming",
+    "book" : {
+        "id" : NumberInt(1880418569),
+        "title" : "Super Smash Bros. Ultimate: Official Guide",
+        "price" : NumberInt(62),
+        "year" : NumberInt(2018),
+        "quantity" : NumberInt(125),
+        "rating" : "99",
+        "category_id" : NumberInt(11)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c26b"),
+    "id" : NumberInt(12),
+    "name" : "Science Non-Fiction",
+    "book" : {
+
+    }
+}

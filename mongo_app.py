@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import re
 import bcrypt
 from bson import ObjectId
-import time
+
  
 app = Flask(__name__)
 
@@ -89,6 +89,9 @@ def register():
     return render_template('register.html', message=message, first_name=first_name)
 
 #######
+
+
+
 @app.route("/search_books", methods=["GET"])
 def search_books():
     user_logged_in = is_user_logged_in()
@@ -103,34 +106,6 @@ def search_books():
     categories = categories_collection.find()
     
     return render_template("search_books.html", user_logged_in=user_logged_in, first_name=first_name, categories=categories)
-
-@app.route("/search_results", methods=["GET"])
-def search_results():
-    user_logged_in = is_user_logged_in()
-    first_name = None
-    if user_logged_in:
-        # Fetch the first_name based on user_id
-        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
-        if user:
-            first_name = user.get('first_name')
-    
-    search_term = request.args.get('searchTerm')
-    category = request.args.get('category')
-    
-    # Build the MongoDB query based on search_term and category (if provided)
-    query = {}
-    if search_term:
-        query["$or"] = [
-            {"title": {"$regex": search_term, "$options": "i"}},
-            {"id": {"$regex": search_term, "$options": "i"}}
-        ]
-    if category:
-        query["category_id"] = int(category)  # Assuming category_id is an integer field
-    
-    # Retrieve book data from MongoDB based on the query
-    books = books_collection.find(query)
-    
-    return render_template("search_results.html", books=books, user_logged_in=user_logged_in, first_name=first_name)
 
 
 @app.route("/create_book", methods=["GET", "POST"])
@@ -185,19 +160,60 @@ def create_book():
     return render_template("create_book.html", categories=categories, user_logged_in=user_logged_in, first_name=first_name)
 
 
-@app.route('/update_book')
-def update_book():
-    first_name = None
+@app.route("/search_results", methods=["GET"])
+def search_results():
     user_logged_in = is_user_logged_in()
+    first_name = None
     if user_logged_in:
-        # Fetch the username based on user_id
+        # Fetch the first_name based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
             first_name = user.get('first_name')
-    return render_template('update_book.html', user_logged_in=user_logged_in, first_name=first_name)
+    
+    search_term = request.args.get('searchTerm')
+    category = request.args.get('category')
+    
+    # Build the MongoDB query based on search_term and category (if provided)
+    query = {}
+    if search_term:
+        query["$or"] = [
+            {"title": {"$regex": search_term, "$options": "i"}},
+            {"id": {"$regex": search_term, "$options": "i"}}
+        ]
+    print(query)
+    if category:
+        query["category_id"] = int(category)  # Assuming category_id is an integer field
+    
+    # Retrieve book data from MongoDB based on the query
+    books = books_collection.find(query)
+    
+    return render_template("search_results.html", books=books, user_logged_in=user_logged_in, first_name=first_name)
 
-@app.route('/delete_book')
-def delete_book():
+@app.route('/book_info/<int:book_id>' , methods=["GET"])
+def book_info(book_id):
+    user_logged_in = is_user_logged_in()
+    first_name = None
+    if user_logged_in:
+        # Fetch the first_name based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            first_name = user.get('first_name')
+    
+    search_term = request.args.get('searchTerm')
+    category = request.args.get('category')
+    
+    # Build the MongoDB query based on search_term and category (if provided)
+    query = {'id':book_id}
+    
+    
+    # Retrieve book data from MongoDB based on the query
+    books = books_collection.find(query)
+    print(type(books))
+    return render_template("book_info.html", books=books, user_logged_in=user_logged_in, first_name=first_name)
+
+@app.route('/search_results/<int:book_id>/delete')
+def delete_book(book_id):
+    print(book_id)
     first_name = None
     user_logged_in = is_user_logged_in()
     if user_logged_in:
@@ -205,7 +221,35 @@ def delete_book():
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
             first_name = user.get('first_name')
-    return render_template('delete_book.html', user_logged_in=user_logged_in, first_name=first_name)
+
+    # if not user_logged_in:
+    #     return redirect(url_for('login'))
+    
+    query = {'id':book_id}
+
+    # Build the MongoDB query based on search_term and category (if provided)
+    # Retrieve book data from MongoDB based on the query
+    books = books_collection.delete_one(query)
+
+    return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
+
+
+@app.route('/search_results/<int:book_id>/update')
+def update_book(book_id):
+    first_name = None
+    user_logged_in = is_user_logged_in()
+    if user_logged_in:
+        # Fetch the username based on user_id
+        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
+        if user:
+            first_name = user.get('first_name')
+
+
+
+
+
+    return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
+
    
 if __name__ == "__main__":
     app.run(host='localhost', port=5001, debug=True)
