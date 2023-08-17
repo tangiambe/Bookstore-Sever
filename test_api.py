@@ -9,7 +9,6 @@ class FlaskAppTestCase(unittest.TestCase):
 
     def test_index(self):
         with app.test_request_context():
-            # You can interact with the session here if needed
             response = self.client.get('/index')
             self.assertEqual(response.status_code, 200)
             self.assertIn(b'Welcome to the Bookstore', response.data)
