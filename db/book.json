@@ -1,0 +1,4950 @@
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be73"),
+    "id" : NumberInt(38572179),
+    "title" : "Atonement",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(118),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(38572179)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be74"),
+    "id" : NumberInt(60502935),
+    "title" : "Going Postal",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2005),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(9),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(60502935)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be75"),
+    "id" : NumberInt(60540753),
+    "title" : "Patron Saint of Liars",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(33),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(60540753)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be76"),
+    "id" : NumberInt(60855925),
+    "title" : "The Color of Magic",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2005),
+    "quantity" : NumberInt(38),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(89),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(60855925)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be77"),
+    "id" : NumberInt(60934417),
+    "title" : "Bel Canto: A Novel",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(54),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(37),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(60934417)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be78"),
+    "id" : NumberInt(60958332),
+    "title" : "The Language Instinct: How the Mind Creates Language",
+    "price" : NumberInt(11),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(68),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(60958332)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be79"),
+    "id" : NumberInt(60958405),
+    "title" : "Words and Rules: The Ingredients of Language",
+    "price" : NumberInt(15),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(18),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(60958405)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be7a"),
+    "id" : NumberInt(61020648),
+    "title" : "Guards! Guards!",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(13),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61020648)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be7b"),
+    "id" : NumberInt(61020656),
+    "title" : "Pyramids",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(87),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(5),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61020656)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be7c"),
+    "id" : NumberInt(61092177),
+    "title" : "Small Gods",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1994),
+    "quantity" : NumberInt(2),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(8),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61092177)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be7d"),
+    "id" : NumberInt(61161721),
+    "title" : "Unseen Academicals",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2010),
+    "quantity" : NumberInt(15),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(127),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61161721)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be7e"),
+    "id" : NumberInt(66214750),
+    "title" : "Twelve Times Blessed",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(116),
+        "author_id" : NumberInt(90),
+        "book_id" : NumberInt(66214750)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be7f"),
+    "id" : NumberInt(67463442),
+    "title" : "On Human Nature",
+    "price" : NumberInt(19),
+    "year" : NumberInt(1988),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(59),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(67463442)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be80"),
+    "id" : NumberInt(67976867),
+    "title" : "Consilience: The Unity of Knowledge",
+    "price" : NumberInt(15),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(47),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(67976867)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be81"),
+    "id" : NumberInt(71414339),
+    "title" : "Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",
+    "price" : NumberInt(19),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(96),
+        "author_id" : NumberInt(74),
+        "book_id" : NumberInt(71414339)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be82"),
+    "id" : NumberInt(72222743),
+    "title" : "A+ Certification All-in-One Exam Guide",
+    "price" : NumberInt(60),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(121),
+        "author_id" : NumberInt(69),
+        "book_id" : NumberInt(72222743)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be83"),
+    "id" : NumberInt(72227710),
+    "title" : "How To Do Everything with Your Tablet PC",
+    "price" : NumberInt(17),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(73),
+        "author_id" : NumberInt(101),
+        "book_id" : NumberInt(72227710)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be84"),
+    "id" : NumberInt(72227885),
+    "title" : "SQL Server 2000 for Experienced DBA's",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(25),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(16),
+        "author_id" : NumberInt(30),
+        "book_id" : NumberInt(72227885)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be85"),
+    "id" : NumberInt(72294337),
+    "title" : "Financial Markets & Corporate Strategy",
+    "price" : NumberInt(123),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(66),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(65),
+        "author_id" : NumberInt(93),
+        "book_id" : NumberInt(72294337)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be86"),
+    "id" : NumberInt(72315318),
+    "title" : "Analysis for Financial Management",
+    "price" : NumberInt(79),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(2),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(58),
+        "author_id" : NumberInt(38),
+        "book_id" : NumberInt(72315318)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be87"),
+    "id" : NumberInt(130323519),
+    "title" : "Financial Reporting and Analysis ",
+    "price" : NumberInt(127),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(102),
+        "author_id" : NumberInt(94),
+        "book_id" : NumberInt(130323519)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be88"),
+    "id" : NumberInt(130998516),
+    "title" : "Real World FPGA Design with Verilog",
+    "price" : NumberInt(83),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(100),
+        "author_id" : NumberInt(56),
+        "book_id" : NumberInt(130998516)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be89"),
+    "id" : NumberInt(140077022),
+    "title" : "White Noise ",
+    "price" : NumberInt(14),
+    "year" : NumberInt(1991),
+    "quantity" : NumberInt(89),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(119),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(140077022)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be8a"),
+    "id" : NumberInt(142001740),
+    "title" : "The Secret Life of Bees",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(74),
+        "author_id" : NumberInt(3),
+        "book_id" : NumberInt(142001740)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be8b"),
+    "id" : NumberInt(156006219),
+    "title" : "The Magician's Assistant",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(124),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(156006219)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be8c"),
+    "id" : NumberInt(156158648),
+    "title" : "The New City Home: Smart Solutions for Metro Living",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(30),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(4),
+        "author_id" : NumberInt(54),
+        "book_id" : NumberInt(156158648)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be8d"),
+    "id" : NumberInt(201615762),
+    "title" : "The Guru's Guide to Transact-SQL",
+    "price" : NumberInt(38),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(96),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(42),
+        "author_id" : NumberInt(2),
+        "book_id" : NumberInt(201615762)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be8e"),
+    "id" : NumberInt(262024829),
+    "title" : "Financial Modeling ",
+    "price" : NumberInt(70),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(48),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(133),
+        "author_id" : NumberInt(18),
+        "book_id" : NumberInt(262024829)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be8f"),
+    "id" : NumberInt(262232197),
+    "title" : "Econometric Analysis of Cross Section and Panel Data",
+    "price" : NumberInt(75),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(78),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(97),
+        "author_id" : NumberInt(83),
+        "book_id" : NumberInt(262232197)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be90"),
+    "id" : NumberInt(262521415),
+    "title" : "Numerical Techniques in Finance",
+    "price" : NumberInt(35),
+    "year" : NumberInt(1989),
+    "quantity" : NumberInt(5),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(72),
+        "author_id" : NumberInt(80),
+        "book_id" : NumberInt(262521415)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be91"),
+    "id" : NumberInt(312243022),
+    "title" : "The Hours",
+    "price" : NumberInt(3),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(43),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(54),
+        "author_id" : NumberInt(35),
+        "book_id" : NumberInt(312243022)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be92"),
+    "id" : NumberInt(312276702),
+    "title" : "Jinn: A Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(49),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(63),
+        "author_id" : NumberInt(63),
+        "book_id" : NumberInt(312276702)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be93"),
+    "id" : NumberInt(312287941),
+    "title" : "The Girl in the Red Coat: A Memoir",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(108),
+        "author_id" : NumberInt(84),
+        "book_id" : NumberInt(312287941)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be94"),
+    "id" : NumberInt(312311354),
+    "title" : "The Pianist",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(34),
+        "author_id" : NumberInt(64),
+        "book_id" : NumberInt(312311354)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be95"),
+    "id" : NumberInt(316096199),
+    "title" : "Lucky: A Memoir",
+    "price" : NumberInt(12),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(54),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(52),
+        "author_id" : NumberInt(97),
+        "book_id" : NumberInt(316096199)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be96"),
+    "id" : NumberInt(316602051),
+    "title" : "The Jester",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(56),
+        "author_id" : NumberInt(10),
+        "book_id" : NumberInt(316602051)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be97"),
+    "id" : NumberInt(316666343),
+    "title" : "The Lovely Bones: A Novel",
+    "price" : NumberInt(22),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(31),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(139),
+        "author_id" : NumberInt(97),
+        "book_id" : NumberInt(316666343)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be98"),
+    "id" : NumberInt(321125169),
+    "title" : "ColdFusion MX Web Application Construction Kit",
+    "price" : NumberInt(38),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(42),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(27),
+        "author_id" : NumberInt(79),
+        "book_id" : NumberInt(321125169)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be99"),
+    "id" : NumberInt(324107501),
+    "title" : "Advanced Accounting",
+    "price" : NumberInt(113),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(5),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(21),
+        "author_id" : NumberInt(19),
+        "book_id" : NumberInt(324107501)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be9a"),
+    "id" : NumberInt(324113641),
+    "title" : "Introductory Econometrics: A Modern Approach",
+    "price" : NumberInt(108),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(66),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(87),
+        "author_id" : NumberInt(83),
+        "book_id" : NumberInt(324113641)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be9b"),
+    "id" : NumberInt(345336895),
+    "title" : "Broca's Brain: Reflections on the Romance of Science",
+    "price" : NumberInt(7),
+    "year" : NumberInt(1993),
+    "quantity" : NumberInt(56),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(86),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345336895)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be9c"),
+    "id" : NumberInt(345376595),
+    "title" : "Pale Blue Dot: A Vision of the Human Future in Space",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(32),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(35),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345376595)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be9d"),
+    "id" : NumberInt(345409469),
+    "title" : "The Demon-Haunted World: Science As a Candle in the Dark",
+    "price" : NumberInt(15),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(86),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(88),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345409469)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be9e"),
+    "id" : NumberInt(345452089),
+    "title" : "The Vampire's Violin",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(81),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(85),
+        "author_id" : NumberInt(52),
+        "book_id" : NumberInt(345452089)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8be9f"),
+    "id" : NumberInt(373218192),
+    "title" : "Engaging The Enemy",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(6),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(51),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(373218192)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea0"),
+    "id" : NumberInt(373218257),
+    "title" : "Love By Design",
+    "price" : NumberInt(15),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(53),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(373218257)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea1"),
+    "id" : NumberInt(373272839),
+    "title" : "Letters to Kelly",
+    "price" : NumberInt(5),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(107),
+        "author_id" : NumberInt(53),
+        "book_id" : NumberInt(373272839)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea2"),
+    "id" : NumberInt(375508325),
+    "title" : "Cosmos",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(129),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(375508325)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea3"),
+    "id" : NumberInt(375703764),
+    "title" : "House of Leaves",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(98),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(15),
+        "author_id" : NumberInt(8),
+        "book_id" : NumberInt(375703764)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea4"),
+    "id" : NumberInt(385494149),
+    "title" : "Enduring Love",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(31),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(128),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494149)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea5"),
+    "id" : NumberInt(385494246),
+    "title" : "Amsterdam",
+    "price" : NumberInt(12),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(57),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(3),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494246)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea6"),
+    "id" : NumberInt(385494327),
+    "title" : "Black Dogs",
+    "price" : NumberInt(14),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(42),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(38),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494327)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea7"),
+    "id" : NumberInt(385504470),
+    "title" : "Lullaby: A Novel",
+    "price" : NumberInt(17),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(112),
+        "author_id" : NumberInt(4),
+        "book_id" : NumberInt(385504470)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea8"),
+    "id" : NumberInt(393318486),
+    "title" : "How the Mind Works",
+    "price" : NumberInt(18),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(122),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(393318486)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bea9"),
+    "id" : NumberInt(393319407),
+    "title" : "The Diversity of Life",
+    "price" : NumberInt(17),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(23),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(94),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(393319407)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beaa"),
+    "id" : NumberInt(394739698),
+    "title" : "A Field Guide to American Houses",
+    "price" : NumberInt(25),
+    "year" : NumberInt(1984),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(11),
+        "author_id" : NumberInt(98),
+        "book_id" : NumberInt(394739698)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beab"),
+    "id" : NumberInt(399149392),
+    "title" : "Chesapeake Blue",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(41),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(36),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(399149392)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beac"),
+    "id" : NumberInt(399149848),
+    "title" : "Birthright",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(67),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(399149848)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bead"),
+    "id" : NumberInt(425188361),
+    "title" : "Cerulean Sins",
+    "price" : NumberInt(16),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(99),
+        "author_id" : NumberInt(44),
+        "book_id" : NumberInt(425188361)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beae"),
+    "id" : NumberInt(440237556),
+    "title" : "The Dark Highlander",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(69),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(2),
+        "author_id" : NumberInt(96),
+        "book_id" : NumberInt(440237556)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beaf"),
+    "id" : NumberInt(446527793),
+    "title" : "The Guardian",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(13),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(45),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446527793)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb0"),
+    "id" : NumberInt(446606812),
+    "title" : "Message in a Bottle",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(13),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(83),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446606812)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb1"),
+    "id" : NumberInt(446608955),
+    "title" : "A Walk to Remember",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(106),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446608955)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb2"),
+    "id" : NumberInt(446676098),
+    "title" : "The Notebook",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(93),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446676098)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb3"),
+    "id" : NumberInt(471200247),
+    "title" : "The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling",
+    "price" : NumberInt(50),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(23),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(61),
+        "author_id" : NumberInt(6),
+        "book_id" : NumberInt(471200247)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb4"),
+    "id" : NumberInt(471286168),
+    "title" : "Architecture: Form, Space, and Order",
+    "price" : NumberInt(40),
+    "year" : NumberInt(1996),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(101),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471286168)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb5"),
+    "id" : NumberInt(471288217),
+    "title" : "A Visual Dictionary of Architecture",
+    "price" : NumberInt(40),
+    "year" : NumberInt(1996),
+    "quantity" : NumberInt(9),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(17),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471288217)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb6"),
+    "id" : NumberInt(471358983),
+    "title" : "Building Construction Illustrated",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(40),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471358983)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb7"),
+    "id" : NumberInt(471363049),
+    "title" : "Intermediate Accounting",
+    "price" : NumberInt(139),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(48),
+        "author_id" : NumberInt(36),
+        "book_id" : NumberInt(471363049)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb8"),
+    "id" : NumberInt(471391123),
+    "title" : "Beyond Coso : Internal Control to Enhance Corporate Governance",
+    "price" : NumberInt(50),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(55),
+        "author_id" : NumberInt(65),
+        "book_id" : NumberInt(471391123)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beb9"),
+    "id" : NumberInt(517576600),
+    "title" : "Color: Natural Palettes for Painted Rooms",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1992),
+    "quantity" : NumberInt(71),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(134),
+        "author_id" : NumberInt(73),
+        "book_id" : NumberInt(517576600)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beba"),
+    "id" : NumberInt(596004478),
+    "title" : "Google Hacks",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(52),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(90),
+        "author_id" : NumberInt(21),
+        "book_id" : NumberInt(596004478)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bebb"),
+    "id" : NumberInt(609610570),
+    "title" : "Execution: The Discipline of Getting Things Done",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(1),
+    "rating" : "100",
+    "category_id" : NumberInt(9),
+    "bookauthor" : {
+        "id" : NumberInt(109),
+        "author_id" : NumberInt(5),
+        "book_id" : NumberInt(609610570)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bebc"),
+    "id" : NumberInt(670031518),
+    "title" : "The Blank Slate: The Modern Denial of Human Nature",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(91),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(46),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(670031518)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bebd"),
+    "id" : NumberInt(671004107),
+    "title" : "Contact",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(6),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(671004107)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bebe"),
+    "id" : NumberInt(679450785),
+    "title" : "The Future of Life",
+    "price" : NumberInt(22),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(70),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(679450785)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bebf"),
+    "id" : NumberInt(679722955),
+    "title" : "The Names",
+    "price" : NumberInt(11),
+    "year" : NumberInt(1989),
+    "quantity" : NumberInt(17),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(125),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(679722955)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec0"),
+    "id" : NumberInt(684843285),
+    "title" : "ON FOOD AND COOKING",
+    "price" : NumberInt(22),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(76),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(84),
+        "author_id" : NumberInt(11),
+        "book_id" : NumberInt(684843285)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec1"),
+    "id" : NumberInt(684848155),
+    "title" : "UNDERWORLD: A NOVEL",
+    "price" : NumberInt(16),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(74),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(69),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(684848155)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec2"),
+    "id" : NumberInt(735712123),
+    "title" : "MySQL",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(96),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(120),
+        "author_id" : NumberInt(72),
+        "book_id" : NumberInt(735712123)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec3"),
+    "id" : NumberInt(735712360),
+    "title" : "The Photoshop Book for Digital Photographers",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(68),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(14),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735712360)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec4"),
+    "id" : NumberInt(735712379),
+    "title" : "Photoshop 7 Down & Dirty Tricks",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(44),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735712379)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec5"),
+    "id" : NumberInt(735713170),
+    "title" : "Mac OS X v. 10.2 Jaguar Killer Tips",
+    "price" : NumberInt(30),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(82),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(64),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735713170)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec6"),
+    "id" : NumberInt(738206679),
+    "title" : "Linked: The New Science of Networks",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(50),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(95),
+        "author_id" : NumberInt(15),
+        "book_id" : NumberInt(738206679)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec7"),
+    "id" : NumberInt(743206061),
+    "title" : "The Second Time Around",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(4),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(98),
+        "author_id" : NumberInt(58),
+        "book_id" : NumberInt(743206061)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec8"),
+    "id" : NumberInt(743222008),
+    "title" : "The Vanished Man: A Lincoln Rhyme Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(18),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(123),
+        "author_id" : NumberInt(32),
+        "book_id" : NumberInt(743222008)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bec9"),
+    "id" : NumberInt(743244249),
+    "title" : "Cosmopolis: A Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(20),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(126),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(743244249)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beca"),
+    "id" : NumberInt(743455967),
+    "title" : "On Writing",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(105),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743455967)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8becb"),
+    "id" : NumberInt(743457358),
+    "title" : "Everything's Eventual: 14 Dark Tales",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(7),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743457358)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8becc"),
+    "id" : NumberInt(743467523),
+    "title" : "Dreamcatcher",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(1),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743467523)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8becd"),
+    "id" : NumberInt(747532699),
+    "title" : "Harry Potter and the Philosopher's Stone",
+    "price" : NumberInt(25),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(20),
+    "rating" : "100",
+    "category_id" : NumberInt(10),
+    "bookauthor" : {
+        "id" : NumberInt(1000),
+        "author_id" : NumberInt(1000),
+        "book_id" : NumberInt(747532699)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bece"),
+    "id" : NumberInt(782140114),
+    "title" : "Access 2002 Developer's Handbook Set",
+    "price" : NumberInt(70),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(73),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(113),
+        "author_id" : NumberInt(50),
+        "book_id" : NumberInt(782140114)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8becf"),
+    "id" : NumberInt(782140661),
+    "title" : "OCP: Oracle9i Certification Kit",
+    "price" : NumberInt(105),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(40),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(77),
+        "author_id" : NumberInt(12),
+        "book_id" : NumberInt(782140661)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed0"),
+    "id" : NumberInt(787960756),
+    "title" : "The Five Dysfunctions of a Team: A Leadership Fable",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(44),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(132),
+        "author_id" : NumberInt(87),
+        "book_id" : NumberInt(787960756)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed1"),
+    "id" : NumberInt(805317554),
+    "title" : "Fundamentals of Database Systems ",
+    "price" : NumberInt(95),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(75),
+        "author_id" : NumberInt(24),
+        "book_id" : NumberInt(805317554)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed2"),
+    "id" : NumberInt(865659982),
+    "title" : "Composers' Houses",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(47),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(24),
+        "author_id" : NumberInt(20),
+        "book_id" : NumberInt(865659982)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed3"),
+    "id" : NumberInt(972263608),
+    "title" : "Creating Documents with BusinessObjects 5.1",
+    "price" : NumberInt(99),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(57),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(140),
+        "author_id" : NumberInt(92),
+        "book_id" : NumberInt(972263608)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed4"),
+    "id" : NumberInt(1558605525),
+    "title" : "Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(19),
+        "author_id" : NumberInt(1),
+        "book_id" : NumberInt(1558605525)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed5"),
+    "id" : NumberInt(1558606432),
+    "title" : "Persuasive Technology: Using Computers to Change What We Think and Do",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(53),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(60),
+        "author_id" : NumberInt(76),
+        "book_id" : NumberInt(1558606432)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed6"),
+    "id" : NumberInt(1561584029),
+    "title" : "The Complete Illustrated Guide to Furniture and Cabinet Construction",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(93),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(43),
+        "author_id" : NumberInt(99),
+        "book_id" : NumberInt(1561584029)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed7"),
+    "id" : NumberInt(1561586196),
+    "title" : "Building a Shed",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(58),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(117),
+        "author_id" : NumberInt(67),
+        "book_id" : NumberInt(1561586196)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed8"),
+    "id" : NumberInt(1565924916),
+    "title" : "Ldap System Administration",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(27),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(82),
+        "author_id" : NumberInt(59),
+        "book_id" : NumberInt(1565924916)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bed9"),
+    "id" : NumberInt(1579550088),
+    "title" : "A New Kind of Science",
+    "price" : NumberInt(45),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(47),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(138),
+        "author_id" : NumberInt(34),
+        "book_id" : NumberInt(1579550088)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8beda"),
+    "id" : NumberInt(1579902944),
+    "title" : "Choosing & Using Hand Tools",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(39),
+        "author_id" : NumberInt(99),
+        "book_id" : NumberInt(1579902944)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bedb"),
+    "id" : NumberInt(1586851322),
+    "title" : "Prefab",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(99),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(130),
+        "author_id" : NumberInt(13),
+        "book_id" : NumberInt(1586851322)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bedc"),
+    "id" : NumberInt(1586851357),
+    "title" : "Cabins & Camps",
+    "price" : NumberInt(60),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(19565498),
+    "rating" : "89",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(71),
+        "author_id" : NumberInt(27),
+        "book_id" : NumberInt(1586851357)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bedd"),
+    "id" : NumberInt(1590520734),
+    "title" : "The Rescuer: The O'Malley Series",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(92),
+        "author_id" : NumberInt(33),
+        "book_id" : NumberInt(1590520734)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bede"),
+    "id" : NumberInt(1861004486),
+    "title" : "Professional SQL Server 2000 Programming",
+    "price" : NumberInt(42),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(92),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(10),
+        "author_id" : NumberInt(86),
+        "book_id" : NumberInt(1861004486)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bedf"),
+    "id" : NumberInt(1880418568),
+    "title" : "Wolves of the Calla ",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(28),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(31),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(1880418568)
+    }
+}
+{
+    "_id" : ObjectId("64dba5d3b4b01a078fc8bee0"),
+    "id" : NumberInt(1880418569),
+    "title" : "Super Smash Bros. Ultimate: Official Guide",
+    "price" : NumberInt(62),
+    "year" : NumberInt(2018),
+    "quantity" : NumberInt(125),
+    "rating" : "99",
+    "category_id" : NumberInt(11),
+    "bookauthor" : {
+        "id" : NumberInt(1001),
+        "author_id" : NumberInt(1001),
+        "book_id" : NumberInt(1880418569)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bfeb"),
+    "id" : NumberInt(38572179),
+    "title" : "Atonement",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(118),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(38572179)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bfec"),
+    "id" : NumberInt(60502935),
+    "title" : "Going Postal",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2005),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(9),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(60502935)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bfed"),
+    "id" : NumberInt(60540753),
+    "title" : "Patron Saint of Liars",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(33),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(60540753)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bfee"),
+    "id" : NumberInt(60855925),
+    "title" : "The Color of Magic",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2005),
+    "quantity" : NumberInt(38),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(89),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(60855925)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bfef"),
+    "id" : NumberInt(60934417),
+    "title" : "Bel Canto: A Novel",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(54),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(37),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(60934417)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff0"),
+    "id" : NumberInt(60958332),
+    "title" : "The Language Instinct: How the Mind Creates Language",
+    "price" : NumberInt(11),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(68),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(60958332)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff1"),
+    "id" : NumberInt(60958405),
+    "title" : "Words and Rules: The Ingredients of Language",
+    "price" : NumberInt(15),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(18),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(60958405)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff2"),
+    "id" : NumberInt(61020648),
+    "title" : "Guards! Guards!",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(13),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61020648)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff3"),
+    "id" : NumberInt(61020656),
+    "title" : "Pyramids",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(87),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(5),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61020656)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff4"),
+    "id" : NumberInt(61092177),
+    "title" : "Small Gods",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1994),
+    "quantity" : NumberInt(2),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(8),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61092177)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff5"),
+    "id" : NumberInt(61161721),
+    "title" : "Unseen Academicals",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2010),
+    "quantity" : NumberInt(15),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(127),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61161721)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff6"),
+    "id" : NumberInt(66214750),
+    "title" : "Twelve Times Blessed",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(116),
+        "author_id" : NumberInt(90),
+        "book_id" : NumberInt(66214750)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff7"),
+    "id" : NumberInt(67463442),
+    "title" : "On Human Nature",
+    "price" : NumberInt(19),
+    "year" : NumberInt(1988),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(59),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(67463442)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff8"),
+    "id" : NumberInt(67976867),
+    "title" : "Consilience: The Unity of Knowledge",
+    "price" : NumberInt(15),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(47),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(67976867)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bff9"),
+    "id" : NumberInt(71414339),
+    "title" : "Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",
+    "price" : NumberInt(19),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(96),
+        "author_id" : NumberInt(74),
+        "book_id" : NumberInt(71414339)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bffa"),
+    "id" : NumberInt(72222743),
+    "title" : "A+ Certification All-in-One Exam Guide",
+    "price" : NumberInt(60),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(121),
+        "author_id" : NumberInt(69),
+        "book_id" : NumberInt(72222743)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bffb"),
+    "id" : NumberInt(72227710),
+    "title" : "How To Do Everything with Your Tablet PC",
+    "price" : NumberInt(17),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(73),
+        "author_id" : NumberInt(101),
+        "book_id" : NumberInt(72227710)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bffc"),
+    "id" : NumberInt(72227885),
+    "title" : "SQL Server 2000 for Experienced DBA's",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(25),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(16),
+        "author_id" : NumberInt(30),
+        "book_id" : NumberInt(72227885)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bffd"),
+    "id" : NumberInt(72294337),
+    "title" : "Financial Markets & Corporate Strategy",
+    "price" : NumberInt(123),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(66),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(65),
+        "author_id" : NumberInt(93),
+        "book_id" : NumberInt(72294337)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bffe"),
+    "id" : NumberInt(72315318),
+    "title" : "Analysis for Financial Management",
+    "price" : NumberInt(79),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(2),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(58),
+        "author_id" : NumberInt(38),
+        "book_id" : NumberInt(72315318)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8bfff"),
+    "id" : NumberInt(130323519),
+    "title" : "Financial Reporting and Analysis ",
+    "price" : NumberInt(127),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(102),
+        "author_id" : NumberInt(94),
+        "book_id" : NumberInt(130323519)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c000"),
+    "id" : NumberInt(130998516),
+    "title" : "Real World FPGA Design with Verilog",
+    "price" : NumberInt(83),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(100),
+        "author_id" : NumberInt(56),
+        "book_id" : NumberInt(130998516)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c001"),
+    "id" : NumberInt(140077022),
+    "title" : "White Noise ",
+    "price" : NumberInt(14),
+    "year" : NumberInt(1991),
+    "quantity" : NumberInt(89),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(119),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(140077022)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c002"),
+    "id" : NumberInt(142001740),
+    "title" : "The Secret Life of Bees",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(74),
+        "author_id" : NumberInt(3),
+        "book_id" : NumberInt(142001740)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c003"),
+    "id" : NumberInt(156006219),
+    "title" : "The Magician's Assistant",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(124),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(156006219)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c004"),
+    "id" : NumberInt(156158648),
+    "title" : "The New City Home: Smart Solutions for Metro Living",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(30),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(4),
+        "author_id" : NumberInt(54),
+        "book_id" : NumberInt(156158648)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c005"),
+    "id" : NumberInt(201615762),
+    "title" : "The Guru's Guide to Transact-SQL",
+    "price" : NumberInt(38),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(96),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(42),
+        "author_id" : NumberInt(2),
+        "book_id" : NumberInt(201615762)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c006"),
+    "id" : NumberInt(262024829),
+    "title" : "Financial Modeling ",
+    "price" : NumberInt(70),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(48),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(133),
+        "author_id" : NumberInt(18),
+        "book_id" : NumberInt(262024829)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c007"),
+    "id" : NumberInt(262232197),
+    "title" : "Econometric Analysis of Cross Section and Panel Data",
+    "price" : NumberInt(75),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(78),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(97),
+        "author_id" : NumberInt(83),
+        "book_id" : NumberInt(262232197)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c008"),
+    "id" : NumberInt(262521415),
+    "title" : "Numerical Techniques in Finance",
+    "price" : NumberInt(35),
+    "year" : NumberInt(1989),
+    "quantity" : NumberInt(5),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(72),
+        "author_id" : NumberInt(80),
+        "book_id" : NumberInt(262521415)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c009"),
+    "id" : NumberInt(312243022),
+    "title" : "The Hours",
+    "price" : NumberInt(3),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(43),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(54),
+        "author_id" : NumberInt(35),
+        "book_id" : NumberInt(312243022)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c00a"),
+    "id" : NumberInt(312276702),
+    "title" : "Jinn: A Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(49),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(63),
+        "author_id" : NumberInt(63),
+        "book_id" : NumberInt(312276702)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c00b"),
+    "id" : NumberInt(312287941),
+    "title" : "The Girl in the Red Coat: A Memoir",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(108),
+        "author_id" : NumberInt(84),
+        "book_id" : NumberInt(312287941)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c00c"),
+    "id" : NumberInt(312311354),
+    "title" : "The Pianist",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(34),
+        "author_id" : NumberInt(64),
+        "book_id" : NumberInt(312311354)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c00d"),
+    "id" : NumberInt(316096199),
+    "title" : "Lucky: A Memoir",
+    "price" : NumberInt(12),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(54),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(52),
+        "author_id" : NumberInt(97),
+        "book_id" : NumberInt(316096199)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c00e"),
+    "id" : NumberInt(316602051),
+    "title" : "The Jester",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(56),
+        "author_id" : NumberInt(10),
+        "book_id" : NumberInt(316602051)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c00f"),
+    "id" : NumberInt(316666343),
+    "title" : "The Lovely Bones: A Novel",
+    "price" : NumberInt(22),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(31),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(139),
+        "author_id" : NumberInt(97),
+        "book_id" : NumberInt(316666343)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c010"),
+    "id" : NumberInt(321125169),
+    "title" : "ColdFusion MX Web Application Construction Kit",
+    "price" : NumberInt(38),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(42),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(27),
+        "author_id" : NumberInt(79),
+        "book_id" : NumberInt(321125169)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c011"),
+    "id" : NumberInt(324107501),
+    "title" : "Advanced Accounting",
+    "price" : NumberInt(113),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(5),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(21),
+        "author_id" : NumberInt(19),
+        "book_id" : NumberInt(324107501)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c012"),
+    "id" : NumberInt(324113641),
+    "title" : "Introductory Econometrics: A Modern Approach",
+    "price" : NumberInt(108),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(66),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(87),
+        "author_id" : NumberInt(83),
+        "book_id" : NumberInt(324113641)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c013"),
+    "id" : NumberInt(345336895),
+    "title" : "Broca's Brain: Reflections on the Romance of Science",
+    "price" : NumberInt(7),
+    "year" : NumberInt(1993),
+    "quantity" : NumberInt(56),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(86),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345336895)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c014"),
+    "id" : NumberInt(345376595),
+    "title" : "Pale Blue Dot: A Vision of the Human Future in Space",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(32),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(35),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345376595)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c015"),
+    "id" : NumberInt(345409469),
+    "title" : "The Demon-Haunted World: Science As a Candle in the Dark",
+    "price" : NumberInt(15),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(86),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(88),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345409469)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c016"),
+    "id" : NumberInt(345452089),
+    "title" : "The Vampire's Violin",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(81),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(85),
+        "author_id" : NumberInt(52),
+        "book_id" : NumberInt(345452089)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c017"),
+    "id" : NumberInt(373218192),
+    "title" : "Engaging The Enemy",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(6),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(51),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(373218192)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c018"),
+    "id" : NumberInt(373218257),
+    "title" : "Love By Design",
+    "price" : NumberInt(15),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(53),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(373218257)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c019"),
+    "id" : NumberInt(373272839),
+    "title" : "Letters to Kelly",
+    "price" : NumberInt(5),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(107),
+        "author_id" : NumberInt(53),
+        "book_id" : NumberInt(373272839)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c01a"),
+    "id" : NumberInt(375508325),
+    "title" : "Cosmos",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(129),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(375508325)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c01b"),
+    "id" : NumberInt(375703764),
+    "title" : "House of Leaves",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(98),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(15),
+        "author_id" : NumberInt(8),
+        "book_id" : NumberInt(375703764)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c01c"),
+    "id" : NumberInt(385494149),
+    "title" : "Enduring Love",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(31),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(128),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494149)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c01d"),
+    "id" : NumberInt(385494246),
+    "title" : "Amsterdam",
+    "price" : NumberInt(12),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(57),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(3),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494246)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c01e"),
+    "id" : NumberInt(385494327),
+    "title" : "Black Dogs",
+    "price" : NumberInt(14),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(42),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(38),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494327)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c01f"),
+    "id" : NumberInt(385504470),
+    "title" : "Lullaby: A Novel",
+    "price" : NumberInt(17),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(112),
+        "author_id" : NumberInt(4),
+        "book_id" : NumberInt(385504470)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c020"),
+    "id" : NumberInt(393318486),
+    "title" : "How the Mind Works",
+    "price" : NumberInt(18),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(122),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(393318486)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c021"),
+    "id" : NumberInt(393319407),
+    "title" : "The Diversity of Life",
+    "price" : NumberInt(17),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(23),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(94),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(393319407)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c022"),
+    "id" : NumberInt(394739698),
+    "title" : "A Field Guide to American Houses",
+    "price" : NumberInt(25),
+    "year" : NumberInt(1984),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(11),
+        "author_id" : NumberInt(98),
+        "book_id" : NumberInt(394739698)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c023"),
+    "id" : NumberInt(399149392),
+    "title" : "Chesapeake Blue",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(41),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(36),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(399149392)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c024"),
+    "id" : NumberInt(399149848),
+    "title" : "Birthright",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(67),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(399149848)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c025"),
+    "id" : NumberInt(425188361),
+    "title" : "Cerulean Sins",
+    "price" : NumberInt(16),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(99),
+        "author_id" : NumberInt(44),
+        "book_id" : NumberInt(425188361)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c026"),
+    "id" : NumberInt(440237556),
+    "title" : "The Dark Highlander",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(69),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(2),
+        "author_id" : NumberInt(96),
+        "book_id" : NumberInt(440237556)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c027"),
+    "id" : NumberInt(446527793),
+    "title" : "The Guardian",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(13),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(45),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446527793)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c028"),
+    "id" : NumberInt(446606812),
+    "title" : "Message in a Bottle",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(13),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(83),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446606812)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c029"),
+    "id" : NumberInt(446608955),
+    "title" : "A Walk to Remember",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(106),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446608955)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c02a"),
+    "id" : NumberInt(446676098),
+    "title" : "The Notebook",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(93),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446676098)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c02b"),
+    "id" : NumberInt(471200247),
+    "title" : "The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling",
+    "price" : NumberInt(50),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(23),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(61),
+        "author_id" : NumberInt(6),
+        "book_id" : NumberInt(471200247)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c02c"),
+    "id" : NumberInt(471286168),
+    "title" : "Architecture: Form, Space, and Order",
+    "price" : NumberInt(40),
+    "year" : NumberInt(1996),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(101),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471286168)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c02d"),
+    "id" : NumberInt(471288217),
+    "title" : "A Visual Dictionary of Architecture",
+    "price" : NumberInt(40),
+    "year" : NumberInt(1996),
+    "quantity" : NumberInt(9),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(17),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471288217)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c02e"),
+    "id" : NumberInt(471358983),
+    "title" : "Building Construction Illustrated",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(40),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471358983)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c02f"),
+    "id" : NumberInt(471363049),
+    "title" : "Intermediate Accounting",
+    "price" : NumberInt(139),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(48),
+        "author_id" : NumberInt(36),
+        "book_id" : NumberInt(471363049)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c030"),
+    "id" : NumberInt(471391123),
+    "title" : "Beyond Coso : Internal Control to Enhance Corporate Governance",
+    "price" : NumberInt(50),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(55),
+        "author_id" : NumberInt(65),
+        "book_id" : NumberInt(471391123)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c031"),
+    "id" : NumberInt(517576600),
+    "title" : "Color: Natural Palettes for Painted Rooms",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1992),
+    "quantity" : NumberInt(71),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(134),
+        "author_id" : NumberInt(73),
+        "book_id" : NumberInt(517576600)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c032"),
+    "id" : NumberInt(596004478),
+    "title" : "Google Hacks",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(52),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(90),
+        "author_id" : NumberInt(21),
+        "book_id" : NumberInt(596004478)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c033"),
+    "id" : NumberInt(609610570),
+    "title" : "Execution: The Discipline of Getting Things Done",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(1),
+    "rating" : "100",
+    "category_id" : NumberInt(9),
+    "bookauthor" : {
+        "id" : NumberInt(109),
+        "author_id" : NumberInt(5),
+        "book_id" : NumberInt(609610570)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c034"),
+    "id" : NumberInt(670031518),
+    "title" : "The Blank Slate: The Modern Denial of Human Nature",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(91),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(46),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(670031518)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c035"),
+    "id" : NumberInt(671004107),
+    "title" : "Contact",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(6),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(671004107)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c036"),
+    "id" : NumberInt(679450785),
+    "title" : "The Future of Life",
+    "price" : NumberInt(22),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(70),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(679450785)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c037"),
+    "id" : NumberInt(679722955),
+    "title" : "The Names",
+    "price" : NumberInt(11),
+    "year" : NumberInt(1989),
+    "quantity" : NumberInt(17),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(125),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(679722955)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c038"),
+    "id" : NumberInt(684843285),
+    "title" : "ON FOOD AND COOKING",
+    "price" : NumberInt(22),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(76),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(84),
+        "author_id" : NumberInt(11),
+        "book_id" : NumberInt(684843285)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c039"),
+    "id" : NumberInt(684848155),
+    "title" : "UNDERWORLD: A NOVEL",
+    "price" : NumberInt(16),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(74),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(69),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(684848155)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c03a"),
+    "id" : NumberInt(735712123),
+    "title" : "MySQL",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(96),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(120),
+        "author_id" : NumberInt(72),
+        "book_id" : NumberInt(735712123)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c03b"),
+    "id" : NumberInt(735712360),
+    "title" : "The Photoshop Book for Digital Photographers",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(68),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(14),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735712360)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c03c"),
+    "id" : NumberInt(735712379),
+    "title" : "Photoshop 7 Down & Dirty Tricks",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(44),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735712379)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c03d"),
+    "id" : NumberInt(735713170),
+    "title" : "Mac OS X v. 10.2 Jaguar Killer Tips",
+    "price" : NumberInt(30),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(82),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(64),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735713170)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c03e"),
+    "id" : NumberInt(738206679),
+    "title" : "Linked: The New Science of Networks",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(50),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(95),
+        "author_id" : NumberInt(15),
+        "book_id" : NumberInt(738206679)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c03f"),
+    "id" : NumberInt(743206061),
+    "title" : "The Second Time Around",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(4),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(98),
+        "author_id" : NumberInt(58),
+        "book_id" : NumberInt(743206061)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c040"),
+    "id" : NumberInt(743222008),
+    "title" : "The Vanished Man: A Lincoln Rhyme Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(18),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(123),
+        "author_id" : NumberInt(32),
+        "book_id" : NumberInt(743222008)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c041"),
+    "id" : NumberInt(743244249),
+    "title" : "Cosmopolis: A Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(20),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(126),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(743244249)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c042"),
+    "id" : NumberInt(743455967),
+    "title" : "On Writing",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(105),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743455967)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c043"),
+    "id" : NumberInt(743457358),
+    "title" : "Everything's Eventual: 14 Dark Tales",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(7),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743457358)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c044"),
+    "id" : NumberInt(743467523),
+    "title" : "Dreamcatcher",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(1),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743467523)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c045"),
+    "id" : NumberInt(747532699),
+    "title" : "Harry Potter and the Philosopher's Stone",
+    "price" : NumberInt(25),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(20),
+    "rating" : "100",
+    "category_id" : NumberInt(10),
+    "bookauthor" : {
+        "id" : NumberInt(1000),
+        "author_id" : NumberInt(1000),
+        "book_id" : NumberInt(747532699)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c046"),
+    "id" : NumberInt(782140114),
+    "title" : "Access 2002 Developer's Handbook Set",
+    "price" : NumberInt(70),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(73),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(113),
+        "author_id" : NumberInt(50),
+        "book_id" : NumberInt(782140114)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c047"),
+    "id" : NumberInt(782140661),
+    "title" : "OCP: Oracle9i Certification Kit",
+    "price" : NumberInt(105),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(40),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(77),
+        "author_id" : NumberInt(12),
+        "book_id" : NumberInt(782140661)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c048"),
+    "id" : NumberInt(787960756),
+    "title" : "The Five Dysfunctions of a Team: A Leadership Fable",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(44),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(132),
+        "author_id" : NumberInt(87),
+        "book_id" : NumberInt(787960756)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c049"),
+    "id" : NumberInt(805317554),
+    "title" : "Fundamentals of Database Systems ",
+    "price" : NumberInt(95),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(75),
+        "author_id" : NumberInt(24),
+        "book_id" : NumberInt(805317554)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c04a"),
+    "id" : NumberInt(865659982),
+    "title" : "Composers' Houses",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(47),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(24),
+        "author_id" : NumberInt(20),
+        "book_id" : NumberInt(865659982)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c04b"),
+    "id" : NumberInt(972263608),
+    "title" : "Creating Documents with BusinessObjects 5.1",
+    "price" : NumberInt(99),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(57),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(140),
+        "author_id" : NumberInt(92),
+        "book_id" : NumberInt(972263608)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c04c"),
+    "id" : NumberInt(1558605525),
+    "title" : "Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(19),
+        "author_id" : NumberInt(1),
+        "book_id" : NumberInt(1558605525)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c04d"),
+    "id" : NumberInt(1558606432),
+    "title" : "Persuasive Technology: Using Computers to Change What We Think and Do",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(53),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(60),
+        "author_id" : NumberInt(76),
+        "book_id" : NumberInt(1558606432)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c04e"),
+    "id" : NumberInt(1561584029),
+    "title" : "The Complete Illustrated Guide to Furniture and Cabinet Construction",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(93),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(43),
+        "author_id" : NumberInt(99),
+        "book_id" : NumberInt(1561584029)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c04f"),
+    "id" : NumberInt(1561586196),
+    "title" : "Building a Shed",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(58),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(117),
+        "author_id" : NumberInt(67),
+        "book_id" : NumberInt(1561586196)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c050"),
+    "id" : NumberInt(1565924916),
+    "title" : "Ldap System Administration",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(27),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(82),
+        "author_id" : NumberInt(59),
+        "book_id" : NumberInt(1565924916)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c051"),
+    "id" : NumberInt(1579550088),
+    "title" : "A New Kind of Science",
+    "price" : NumberInt(45),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(47),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(138),
+        "author_id" : NumberInt(34),
+        "book_id" : NumberInt(1579550088)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c052"),
+    "id" : NumberInt(1579902944),
+    "title" : "Choosing & Using Hand Tools",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(39),
+        "author_id" : NumberInt(99),
+        "book_id" : NumberInt(1579902944)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c053"),
+    "id" : NumberInt(1586851322),
+    "title" : "Prefab",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(99),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(130),
+        "author_id" : NumberInt(13),
+        "book_id" : NumberInt(1586851322)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c054"),
+    "id" : NumberInt(1586851357),
+    "title" : "Cabins & Camps",
+    "price" : NumberInt(60),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(19565498),
+    "rating" : "89",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(71),
+        "author_id" : NumberInt(27),
+        "book_id" : NumberInt(1586851357)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c055"),
+    "id" : NumberInt(1590520734),
+    "title" : "The Rescuer: The O'Malley Series",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(92),
+        "author_id" : NumberInt(33),
+        "book_id" : NumberInt(1590520734)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c056"),
+    "id" : NumberInt(1861004486),
+    "title" : "Professional SQL Server 2000 Programming",
+    "price" : NumberInt(42),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(92),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(10),
+        "author_id" : NumberInt(86),
+        "book_id" : NumberInt(1861004486)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c057"),
+    "id" : NumberInt(1880418568),
+    "title" : "Wolves of the Calla ",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(28),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(31),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(1880418568)
+    }
+}
+{
+    "_id" : ObjectId("64dba5e0b4b01a078fc8c058"),
+    "id" : NumberInt(1880418569),
+    "title" : "Super Smash Bros. Ultimate: Official Guide",
+    "price" : NumberInt(62),
+    "year" : NumberInt(2018),
+    "quantity" : NumberInt(125),
+    "rating" : "99",
+    "category_id" : NumberInt(11),
+    "bookauthor" : {
+        "id" : NumberInt(1001),
+        "author_id" : NumberInt(1001),
+        "book_id" : NumberInt(1880418569)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c164"),
+    "id" : NumberInt(38572179),
+    "title" : "Atonement",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(118),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(38572179)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c165"),
+    "id" : NumberInt(60502935),
+    "title" : "Going Postal",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2005),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(9),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(60502935)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c166"),
+    "id" : NumberInt(60540753),
+    "title" : "Patron Saint of Liars",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(33),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(60540753)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c167"),
+    "id" : NumberInt(60855925),
+    "title" : "The Color of Magic",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2005),
+    "quantity" : NumberInt(38),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(89),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(60855925)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c168"),
+    "id" : NumberInt(60934417),
+    "title" : "Bel Canto: A Novel",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(54),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(37),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(60934417)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c169"),
+    "id" : NumberInt(60958332),
+    "title" : "The Language Instinct: How the Mind Creates Language",
+    "price" : NumberInt(11),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(68),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(60958332)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c16a"),
+    "id" : NumberInt(60958405),
+    "title" : "Words and Rules: The Ingredients of Language",
+    "price" : NumberInt(15),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(18),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(60958405)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c16b"),
+    "id" : NumberInt(61020648),
+    "title" : "Guards! Guards!",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(13),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61020648)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c16c"),
+    "id" : NumberInt(61020656),
+    "title" : "Pyramids",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(87),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(5),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61020656)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c16d"),
+    "id" : NumberInt(61092177),
+    "title" : "Small Gods",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1994),
+    "quantity" : NumberInt(2),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(8),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61092177)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c16e"),
+    "id" : NumberInt(61161721),
+    "title" : "Unseen Academicals",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2010),
+    "quantity" : NumberInt(15),
+    "rating" : "100",
+    "category_id" : NumberInt(5),
+    "bookauthor" : {
+        "id" : NumberInt(127),
+        "author_id" : NumberInt(22),
+        "book_id" : NumberInt(61161721)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c16f"),
+    "id" : NumberInt(66214750),
+    "title" : "Twelve Times Blessed",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(116),
+        "author_id" : NumberInt(90),
+        "book_id" : NumberInt(66214750)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c170"),
+    "id" : NumberInt(67463442),
+    "title" : "On Human Nature",
+    "price" : NumberInt(19),
+    "year" : NumberInt(1988),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(59),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(67463442)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c171"),
+    "id" : NumberInt(67976867),
+    "title" : "Consilience: The Unity of Knowledge",
+    "price" : NumberInt(15),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(47),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(67976867)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c172"),
+    "id" : NumberInt(71414339),
+    "title" : "Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",
+    "price" : NumberInt(19),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(96),
+        "author_id" : NumberInt(74),
+        "book_id" : NumberInt(71414339)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c173"),
+    "id" : NumberInt(72222743),
+    "title" : "A+ Certification All-in-One Exam Guide",
+    "price" : NumberInt(60),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(121),
+        "author_id" : NumberInt(69),
+        "book_id" : NumberInt(72222743)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c174"),
+    "id" : NumberInt(72227710),
+    "title" : "How To Do Everything with Your Tablet PC",
+    "price" : NumberInt(17),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(73),
+        "author_id" : NumberInt(101),
+        "book_id" : NumberInt(72227710)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c175"),
+    "id" : NumberInt(72227885),
+    "title" : "SQL Server 2000 for Experienced DBA's",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(25),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(16),
+        "author_id" : NumberInt(30),
+        "book_id" : NumberInt(72227885)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c176"),
+    "id" : NumberInt(72294337),
+    "title" : "Financial Markets & Corporate Strategy",
+    "price" : NumberInt(123),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(66),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(65),
+        "author_id" : NumberInt(93),
+        "book_id" : NumberInt(72294337)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c177"),
+    "id" : NumberInt(72315318),
+    "title" : "Analysis for Financial Management",
+    "price" : NumberInt(79),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(2),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(58),
+        "author_id" : NumberInt(38),
+        "book_id" : NumberInt(72315318)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c178"),
+    "id" : NumberInt(130323519),
+    "title" : "Financial Reporting and Analysis ",
+    "price" : NumberInt(127),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(102),
+        "author_id" : NumberInt(94),
+        "book_id" : NumberInt(130323519)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c179"),
+    "id" : NumberInt(130998516),
+    "title" : "Real World FPGA Design with Verilog",
+    "price" : NumberInt(83),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(100),
+        "author_id" : NumberInt(56),
+        "book_id" : NumberInt(130998516)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c17a"),
+    "id" : NumberInt(140077022),
+    "title" : "White Noise ",
+    "price" : NumberInt(14),
+    "year" : NumberInt(1991),
+    "quantity" : NumberInt(89),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(119),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(140077022)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c17b"),
+    "id" : NumberInt(142001740),
+    "title" : "The Secret Life of Bees",
+    "price" : NumberInt(14),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(74),
+        "author_id" : NumberInt(3),
+        "book_id" : NumberInt(142001740)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c17c"),
+    "id" : NumberInt(156006219),
+    "title" : "The Magician's Assistant",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(124),
+        "author_id" : NumberInt(16),
+        "book_id" : NumberInt(156006219)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c17d"),
+    "id" : NumberInt(156158648),
+    "title" : "The New City Home: Smart Solutions for Metro Living",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(30),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(4),
+        "author_id" : NumberInt(54),
+        "book_id" : NumberInt(156158648)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c17e"),
+    "id" : NumberInt(201615762),
+    "title" : "The Guru's Guide to Transact-SQL",
+    "price" : NumberInt(38),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(96),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(42),
+        "author_id" : NumberInt(2),
+        "book_id" : NumberInt(201615762)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c17f"),
+    "id" : NumberInt(262024829),
+    "title" : "Financial Modeling ",
+    "price" : NumberInt(70),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(48),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(133),
+        "author_id" : NumberInt(18),
+        "book_id" : NumberInt(262024829)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c180"),
+    "id" : NumberInt(262232197),
+    "title" : "Econometric Analysis of Cross Section and Panel Data",
+    "price" : NumberInt(75),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(78),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(97),
+        "author_id" : NumberInt(83),
+        "book_id" : NumberInt(262232197)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c181"),
+    "id" : NumberInt(262521415),
+    "title" : "Numerical Techniques in Finance",
+    "price" : NumberInt(35),
+    "year" : NumberInt(1989),
+    "quantity" : NumberInt(5),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(72),
+        "author_id" : NumberInt(80),
+        "book_id" : NumberInt(262521415)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c182"),
+    "id" : NumberInt(312243022),
+    "title" : "The Hours",
+    "price" : NumberInt(3),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(43),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(54),
+        "author_id" : NumberInt(35),
+        "book_id" : NumberInt(312243022)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c183"),
+    "id" : NumberInt(312276702),
+    "title" : "Jinn: A Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(49),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(63),
+        "author_id" : NumberInt(63),
+        "book_id" : NumberInt(312276702)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c184"),
+    "id" : NumberInt(312287941),
+    "title" : "The Girl in the Red Coat: A Memoir",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(108),
+        "author_id" : NumberInt(84),
+        "book_id" : NumberInt(312287941)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c185"),
+    "id" : NumberInt(312311354),
+    "title" : "The Pianist",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(34),
+        "author_id" : NumberInt(64),
+        "book_id" : NumberInt(312311354)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c186"),
+    "id" : NumberInt(316096199),
+    "title" : "Lucky: A Memoir",
+    "price" : NumberInt(12),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(54),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(52),
+        "author_id" : NumberInt(97),
+        "book_id" : NumberInt(316096199)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c187"),
+    "id" : NumberInt(316602051),
+    "title" : "The Jester",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(56),
+        "author_id" : NumberInt(10),
+        "book_id" : NumberInt(316602051)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c188"),
+    "id" : NumberInt(316666343),
+    "title" : "The Lovely Bones: A Novel",
+    "price" : NumberInt(22),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(31),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(139),
+        "author_id" : NumberInt(97),
+        "book_id" : NumberInt(316666343)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c189"),
+    "id" : NumberInt(321125169),
+    "title" : "ColdFusion MX Web Application Construction Kit",
+    "price" : NumberInt(38),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(42),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(27),
+        "author_id" : NumberInt(79),
+        "book_id" : NumberInt(321125169)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c18a"),
+    "id" : NumberInt(324107501),
+    "title" : "Advanced Accounting",
+    "price" : NumberInt(113),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(5),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(21),
+        "author_id" : NumberInt(19),
+        "book_id" : NumberInt(324107501)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c18b"),
+    "id" : NumberInt(324113641),
+    "title" : "Introductory Econometrics: A Modern Approach",
+    "price" : NumberInt(108),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(66),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(87),
+        "author_id" : NumberInt(83),
+        "book_id" : NumberInt(324113641)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c18c"),
+    "id" : NumberInt(345336895),
+    "title" : "Broca's Brain: Reflections on the Romance of Science",
+    "price" : NumberInt(7),
+    "year" : NumberInt(1993),
+    "quantity" : NumberInt(56),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(86),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345336895)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c18d"),
+    "id" : NumberInt(345376595),
+    "title" : "Pale Blue Dot: A Vision of the Human Future in Space",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(32),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(35),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345376595)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c18e"),
+    "id" : NumberInt(345409469),
+    "title" : "The Demon-Haunted World: Science As a Candle in the Dark",
+    "price" : NumberInt(15),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(86),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(88),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(345409469)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c18f"),
+    "id" : NumberInt(345452089),
+    "title" : "The Vampire's Violin",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(81),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(85),
+        "author_id" : NumberInt(52),
+        "book_id" : NumberInt(345452089)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c190"),
+    "id" : NumberInt(373218192),
+    "title" : "Engaging The Enemy",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(6),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(51),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(373218192)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c191"),
+    "id" : NumberInt(373218257),
+    "title" : "Love By Design",
+    "price" : NumberInt(15),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(53),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(373218257)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c192"),
+    "id" : NumberInt(373272839),
+    "title" : "Letters to Kelly",
+    "price" : NumberInt(5),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(107),
+        "author_id" : NumberInt(53),
+        "book_id" : NumberInt(373272839)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c193"),
+    "id" : NumberInt(375508325),
+    "title" : "Cosmos",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(129),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(375508325)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c194"),
+    "id" : NumberInt(375703764),
+    "title" : "House of Leaves",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(98),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(15),
+        "author_id" : NumberInt(8),
+        "book_id" : NumberInt(375703764)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c195"),
+    "id" : NumberInt(385494149),
+    "title" : "Enduring Love",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(31),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(128),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494149)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c196"),
+    "id" : NumberInt(385494246),
+    "title" : "Amsterdam",
+    "price" : NumberInt(12),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(57),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(3),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494246)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c197"),
+    "id" : NumberInt(385494327),
+    "title" : "Black Dogs",
+    "price" : NumberInt(14),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(42),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(38),
+        "author_id" : NumberInt(31),
+        "book_id" : NumberInt(385494327)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c198"),
+    "id" : NumberInt(385504470),
+    "title" : "Lullaby: A Novel",
+    "price" : NumberInt(17),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(112),
+        "author_id" : NumberInt(4),
+        "book_id" : NumberInt(385504470)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c199"),
+    "id" : NumberInt(393318486),
+    "title" : "How the Mind Works",
+    "price" : NumberInt(18),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(45),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(122),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(393318486)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c19a"),
+    "id" : NumberInt(393319407),
+    "title" : "The Diversity of Life",
+    "price" : NumberInt(17),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(23),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(94),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(393319407)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c19b"),
+    "id" : NumberInt(394739698),
+    "title" : "A Field Guide to American Houses",
+    "price" : NumberInt(25),
+    "year" : NumberInt(1984),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(11),
+        "author_id" : NumberInt(98),
+        "book_id" : NumberInt(394739698)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c19c"),
+    "id" : NumberInt(399149392),
+    "title" : "Chesapeake Blue",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(41),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(36),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(399149392)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c19d"),
+    "id" : NumberInt(399149848),
+    "title" : "Birthright",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(16),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(67),
+        "author_id" : NumberInt(41),
+        "book_id" : NumberInt(399149848)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c19e"),
+    "id" : NumberInt(425188361),
+    "title" : "Cerulean Sins",
+    "price" : NumberInt(16),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(99),
+        "author_id" : NumberInt(44),
+        "book_id" : NumberInt(425188361)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c19f"),
+    "id" : NumberInt(440237556),
+    "title" : "The Dark Highlander",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(69),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(2),
+        "author_id" : NumberInt(96),
+        "book_id" : NumberInt(440237556)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a0"),
+    "id" : NumberInt(446527793),
+    "title" : "The Guardian",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(13),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(45),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446527793)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a1"),
+    "id" : NumberInt(446606812),
+    "title" : "Message in a Bottle",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(13),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(83),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446606812)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a2"),
+    "id" : NumberInt(446608955),
+    "title" : "A Walk to Remember",
+    "price" : NumberInt(7),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(106),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446608955)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a3"),
+    "id" : NumberInt(446676098),
+    "title" : "The Notebook",
+    "price" : NumberInt(13),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(93),
+        "author_id" : NumberInt(62),
+        "book_id" : NumberInt(446676098)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a4"),
+    "id" : NumberInt(471200247),
+    "title" : "The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling",
+    "price" : NumberInt(50),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(23),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(61),
+        "author_id" : NumberInt(6),
+        "book_id" : NumberInt(471200247)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a5"),
+    "id" : NumberInt(471286168),
+    "title" : "Architecture: Form, Space, and Order",
+    "price" : NumberInt(40),
+    "year" : NumberInt(1996),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(101),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471286168)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a6"),
+    "id" : NumberInt(471288217),
+    "title" : "A Visual Dictionary of Architecture",
+    "price" : NumberInt(40),
+    "year" : NumberInt(1996),
+    "quantity" : NumberInt(9),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(17),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471288217)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a7"),
+    "id" : NumberInt(471358983),
+    "title" : "Building Construction Illustrated",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(40),
+        "author_id" : NumberInt(14),
+        "book_id" : NumberInt(471358983)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a8"),
+    "id" : NumberInt(471363049),
+    "title" : "Intermediate Accounting",
+    "price" : NumberInt(139),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(22),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(48),
+        "author_id" : NumberInt(36),
+        "book_id" : NumberInt(471363049)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1a9"),
+    "id" : NumberInt(471391123),
+    "title" : "Beyond Coso : Internal Control to Enhance Corporate Governance",
+    "price" : NumberInt(50),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(33),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(55),
+        "author_id" : NumberInt(65),
+        "book_id" : NumberInt(471391123)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1aa"),
+    "id" : NumberInt(517576600),
+    "title" : "Color: Natural Palettes for Painted Rooms",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1992),
+    "quantity" : NumberInt(71),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(134),
+        "author_id" : NumberInt(73),
+        "book_id" : NumberInt(517576600)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1ab"),
+    "id" : NumberInt(596004478),
+    "title" : "Google Hacks",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(52),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(90),
+        "author_id" : NumberInt(21),
+        "book_id" : NumberInt(596004478)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1ac"),
+    "id" : NumberInt(609610570),
+    "title" : "Execution: The Discipline of Getting Things Done",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(1),
+    "rating" : "100",
+    "category_id" : NumberInt(9),
+    "bookauthor" : {
+        "id" : NumberInt(109),
+        "author_id" : NumberInt(5),
+        "book_id" : NumberInt(609610570)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1ad"),
+    "id" : NumberInt(670031518),
+    "title" : "The Blank Slate: The Modern Denial of Human Nature",
+    "price" : NumberInt(28),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(91),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(46),
+        "author_id" : NumberInt(100),
+        "book_id" : NumberInt(670031518)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1ae"),
+    "id" : NumberInt(671004107),
+    "title" : "Contact",
+    "price" : NumberInt(8),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(70),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(6),
+        "author_id" : NumberInt(43),
+        "book_id" : NumberInt(671004107)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1af"),
+    "id" : NumberInt(679450785),
+    "title" : "The Future of Life",
+    "price" : NumberInt(22),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(70),
+        "author_id" : NumberInt(40),
+        "book_id" : NumberInt(679450785)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b0"),
+    "id" : NumberInt(679722955),
+    "title" : "The Names",
+    "price" : NumberInt(11),
+    "year" : NumberInt(1989),
+    "quantity" : NumberInt(17),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(125),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(679722955)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b1"),
+    "id" : NumberInt(684843285),
+    "title" : "ON FOOD AND COOKING",
+    "price" : NumberInt(22),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(76),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(84),
+        "author_id" : NumberInt(11),
+        "book_id" : NumberInt(684843285)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b2"),
+    "id" : NumberInt(684848155),
+    "title" : "UNDERWORLD: A NOVEL",
+    "price" : NumberInt(16),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(74),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(69),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(684848155)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b3"),
+    "id" : NumberInt(735712123),
+    "title" : "MySQL",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(96),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(120),
+        "author_id" : NumberInt(72),
+        "book_id" : NumberInt(735712123)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b4"),
+    "id" : NumberInt(735712360),
+    "title" : "The Photoshop Book for Digital Photographers",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(68),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(14),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735712360)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b5"),
+    "id" : NumberInt(735712379),
+    "title" : "Photoshop 7 Down & Dirty Tricks",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(94),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(44),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735712379)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b6"),
+    "id" : NumberInt(735713170),
+    "title" : "Mac OS X v. 10.2 Jaguar Killer Tips",
+    "price" : NumberInt(30),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(82),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(64),
+        "author_id" : NumberInt(7),
+        "book_id" : NumberInt(735713170)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b7"),
+    "id" : NumberInt(738206679),
+    "title" : "Linked: The New Science of Networks",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(50),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(95),
+        "author_id" : NumberInt(15),
+        "book_id" : NumberInt(738206679)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b8"),
+    "id" : NumberInt(743206061),
+    "title" : "The Second Time Around",
+    "price" : NumberInt(26),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(4),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(98),
+        "author_id" : NumberInt(58),
+        "book_id" : NumberInt(743206061)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1b9"),
+    "id" : NumberInt(743222008),
+    "title" : "The Vanished Man: A Lincoln Rhyme Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(18),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(123),
+        "author_id" : NumberInt(32),
+        "book_id" : NumberInt(743222008)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1ba"),
+    "id" : NumberInt(743244249),
+    "title" : "Cosmopolis: A Novel",
+    "price" : NumberInt(25),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(20),
+    "rating" : "100",
+    "category_id" : NumberInt(1),
+    "bookauthor" : {
+        "id" : NumberInt(126),
+        "author_id" : NumberInt(81),
+        "book_id" : NumberInt(743244249)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1bb"),
+    "id" : NumberInt(743455967),
+    "title" : "On Writing",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(59),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(105),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743455967)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1bc"),
+    "id" : NumberInt(743457358),
+    "title" : "Everything's Eventual: 14 Dark Tales",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(26),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(7),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743457358)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1bd"),
+    "id" : NumberInt(743467523),
+    "title" : "Dreamcatcher",
+    "price" : NumberInt(8),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(77),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(1),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(743467523)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1be"),
+    "id" : NumberInt(747532699),
+    "title" : "Harry Potter and the Philosopher's Stone",
+    "price" : NumberInt(25),
+    "year" : NumberInt(1997),
+    "quantity" : NumberInt(20),
+    "rating" : "100",
+    "category_id" : NumberInt(10),
+    "bookauthor" : {
+        "id" : NumberInt(1000),
+        "author_id" : NumberInt(1000),
+        "book_id" : NumberInt(747532699)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1bf"),
+    "id" : NumberInt(782140114),
+    "title" : "Access 2002 Developer's Handbook Set",
+    "price" : NumberInt(70),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(73),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(113),
+        "author_id" : NumberInt(50),
+        "book_id" : NumberInt(782140114)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c0"),
+    "id" : NumberInt(782140661),
+    "title" : "OCP: Oracle9i Certification Kit",
+    "price" : NumberInt(105),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(40),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(77),
+        "author_id" : NumberInt(12),
+        "book_id" : NumberInt(782140661)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c1"),
+    "id" : NumberInt(787960756),
+    "title" : "The Five Dysfunctions of a Team: A Leadership Fable",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(44),
+    "rating" : "100",
+    "category_id" : NumberInt(7),
+    "bookauthor" : {
+        "id" : NumberInt(132),
+        "author_id" : NumberInt(87),
+        "book_id" : NumberInt(787960756)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c2"),
+    "id" : NumberInt(805317554),
+    "title" : "Fundamentals of Database Systems ",
+    "price" : NumberInt(95),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(34),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(75),
+        "author_id" : NumberInt(24),
+        "book_id" : NumberInt(805317554)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c3"),
+    "id" : NumberInt(865659982),
+    "title" : "Composers' Houses",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1998),
+    "quantity" : NumberInt(47),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(24),
+        "author_id" : NumberInt(20),
+        "book_id" : NumberInt(865659982)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c4"),
+    "id" : NumberInt(972263608),
+    "title" : "Creating Documents with BusinessObjects 5.1",
+    "price" : NumberInt(99),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(57),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(140),
+        "author_id" : NumberInt(92),
+        "book_id" : NumberInt(972263608)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c5"),
+    "id" : NumberInt(1558605525),
+    "title" : "Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations",
+    "price" : NumberInt(50),
+    "year" : NumberInt(1999),
+    "quantity" : NumberInt(46),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(19),
+        "author_id" : NumberInt(1),
+        "book_id" : NumberInt(1558605525)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c6"),
+    "id" : NumberInt(1558606432),
+    "title" : "Persuasive Technology: Using Computers to Change What We Think and Do",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(53),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(60),
+        "author_id" : NumberInt(76),
+        "book_id" : NumberInt(1558606432)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c7"),
+    "id" : NumberInt(1561584029),
+    "title" : "The Complete Illustrated Guide to Furniture and Cabinet Construction",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2001),
+    "quantity" : NumberInt(93),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(43),
+        "author_id" : NumberInt(99),
+        "book_id" : NumberInt(1561584029)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c8"),
+    "id" : NumberInt(1561586196),
+    "title" : "Building a Shed",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(58),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(117),
+        "author_id" : NumberInt(67),
+        "book_id" : NumberInt(1561586196)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1c9"),
+    "id" : NumberInt(1565924916),
+    "title" : "Ldap System Administration",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(27),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(82),
+        "author_id" : NumberInt(59),
+        "book_id" : NumberInt(1565924916)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1ca"),
+    "id" : NumberInt(1579550088),
+    "title" : "A New Kind of Science",
+    "price" : NumberInt(45),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(47),
+    "rating" : "100",
+    "category_id" : NumberInt(4),
+    "bookauthor" : {
+        "id" : NumberInt(138),
+        "author_id" : NumberInt(34),
+        "book_id" : NumberInt(1579550088)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1cb"),
+    "id" : NumberInt(1579902944),
+    "title" : "Choosing & Using Hand Tools",
+    "price" : NumberInt(20),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(37),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(39),
+        "author_id" : NumberInt(99),
+        "book_id" : NumberInt(1579902944)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1cc"),
+    "id" : NumberInt(1586851322),
+    "title" : "Prefab",
+    "price" : NumberInt(40),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(99),
+    "rating" : "100",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(130),
+        "author_id" : NumberInt(13),
+        "book_id" : NumberInt(1586851322)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1cd"),
+    "id" : NumberInt(1586851357),
+    "title" : "Cabins & Camps",
+    "price" : NumberInt(60),
+    "year" : NumberInt(2002),
+    "quantity" : NumberInt(19565498),
+    "rating" : "89",
+    "category_id" : NumberInt(2),
+    "bookauthor" : {
+        "id" : NumberInt(71),
+        "author_id" : NumberInt(27),
+        "book_id" : NumberInt(1586851357)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1ce"),
+    "id" : NumberInt(1590520734),
+    "title" : "The Rescuer: The O'Malley Series",
+    "price" : NumberInt(13),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(64),
+    "rating" : "100",
+    "category_id" : NumberInt(3),
+    "bookauthor" : {
+        "id" : NumberInt(92),
+        "author_id" : NumberInt(33),
+        "book_id" : NumberInt(1590520734)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1cf"),
+    "id" : NumberInt(1861004486),
+    "title" : "Professional SQL Server 2000 Programming",
+    "price" : NumberInt(42),
+    "year" : NumberInt(2000),
+    "quantity" : NumberInt(92),
+    "rating" : "100",
+    "category_id" : NumberInt(6),
+    "bookauthor" : {
+        "id" : NumberInt(10),
+        "author_id" : NumberInt(86),
+        "book_id" : NumberInt(1861004486)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1d0"),
+    "id" : NumberInt(1880418568),
+    "title" : "Wolves of the Calla ",
+    "price" : NumberInt(35),
+    "year" : NumberInt(2003),
+    "quantity" : NumberInt(28),
+    "rating" : "100",
+    "category_id" : NumberInt(8),
+    "bookauthor" : {
+        "id" : NumberInt(31),
+        "author_id" : NumberInt(25),
+        "book_id" : NumberInt(1880418568)
+    }
+}
+{
+    "_id" : ObjectId("64dba613b4b01a078fc8c1d1"),
+    "id" : NumberInt(1880418569),
+    "title" : "Super Smash Bros. Ultimate: Official Guide",
+    "price" : NumberInt(62),
+    "year" : NumberInt(2018),
+    "quantity" : NumberInt(125),
+    "rating" : "99",
+    "category_id" : NumberInt(11),
+    "bookauthor" : {
+        "id" : NumberInt(1001),
+        "author_id" : NumberInt(1001),
+        "book_id" : NumberInt(1880418569)
+    }
+}

@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Update Book</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+    <!-- Navigation menu -->
+    {% include 'nav_menu.html' %}
+
+    <!-- Update Books Form -->   
     <div class="container mt-5">
         <h2>Update Book</h2>
         <form action="{{ url_for('update_book', book_id=book_id) }}" method="POST">
+
             <!-- Form fields for updating the book... -->
-            <button type="submit" class="btn btn-primary">Update Book</button>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <button type="button" class="btn btn-outline-secondary">Field Value to be Changed</button>
+                  <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Placehold Value">
+              </div>
+
         </form>
+            <div>
+                <button type="submit" class="btn btn-primary">Update Book</button>
+            </div>           
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
 </body>
 </html>
