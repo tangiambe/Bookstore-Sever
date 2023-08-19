@@ -12,30 +12,27 @@
     <!-- Update Books Form -->   
     <div class="container mt-5">
         <h2>Update Book</h2>
-        <form action="{{ url_for('update_book', book_id=book_id) }}" method="POST">
-
-            <!-- Form fields for updating the book... -->
-            <div class="input-group mb-2">
-                <div class="input-group-prepend">
-                  <button type="button" class="btn btn-outline-secondary">Field Value to be Changed</button>
-                  <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </div>
-                </div>
-                <input type="text" class="form-control" aria-label="Placehold Value">
-              </div>
-
+        <form action="{{ url_for('update_book',id = id)}}" method="post">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Select Column to Edit</label>
+            <select class="form-control" id="fieldVal" name="fieldVal">
+              <option>ISBN</option>
+              <option>Title</option>
+              <option>Price</option>
+              <option>Year</option>
+              <option>Quantity</option>
+              <option>Rating</option>
+            </select>
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlInput1">Insert New Value</label>
+              <input type="text" class="form-control" id="fieldInput"  id="fieldInput"placeholder="New Value">
+          </div>      
+          <div>
+            <button type="submit" class="btn btn-primary">Update Book</button>
+        </div>                                
         </form>
-            <div>
-                <button type="submit" class="btn btn-primary">Update Book</button>
-            </div>           
+                     
     </div>
 
 

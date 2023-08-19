@@ -234,7 +234,7 @@ def delete_book(book_id):
     return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
 
 
-@app.route('/search_results/<int:book_id>/update')
+@app.route('/search_results/<int:book_id>/update', methods=['GET','POST'])
 def update_book(book_id):
     first_name = None
     user_logged_in = is_user_logged_in()
@@ -244,10 +244,13 @@ def update_book(book_id):
         if user:
             first_name = user.get('first_name')
 
-
-
-
-
+    field_val = request.form("fieldVal")
+    field_inpt = request.form.get("fieldInput")
+    print(field_inpt)
+    print(field_val)
+    filter = {'id':f'{book_id}'}
+    update_val = {"$set": {field_val:field_inpt}}
+    books = books_collection.update_one(filter,update_val)  
     return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
 
    
