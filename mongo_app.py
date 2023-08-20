@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify
 from pymongo import MongoClient
 import re
 import bcrypt
@@ -234,24 +234,26 @@ def delete_book(book_id):
     return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
 
 
-@app.route('/search_results/<int:book_id>/update', methods=['GET','POST'])
+@app.route('/update_book/<int:book_id>', methods=["POST"])
 def update_book(book_id):
-    first_name = None
-    user_logged_in = is_user_logged_in()
-    if user_logged_in:
-        # Fetch the username based on user_id
-        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
-        if user:
-            first_name = user.get('first_name')
+    if request.method == 'POST':
+        field_val = request.form.get('fieldVal')
+        field_input = request.form.get('fieldInput')
+        
+        # Construct the filter and update query
+        filter_query = {'id': book_id}
+        update_query = {'$set': {field_val: field_input}}
+        
+        # Update the book using the constructed queries
+        books_collection.update_one(filter_query, update_query)
+        
+        return redirect(url_for('search_results'))
+    
+    # Fetch the book details for the given book_id
+    book = books_collection.find_one({'id': book_id})
+    
+    return render_template('update_book.html', book=book)
 
-    field_val = request.form("fieldVal")
-    field_inpt = request.form.get("fieldInput")
-    print(field_inpt)
-    print(field_val)
-    filter = {'id':f'{book_id}'}
-    update_val = {"$set": {field_val:field_inpt}}
-    books = books_collection.update_one(filter,update_val)  
-    return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
 
    
 if __name__ == "__main__":
