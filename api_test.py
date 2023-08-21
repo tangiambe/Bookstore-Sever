@@ -8,10 +8,9 @@ class FlaskAppTestCase(unittest.TestCase):
         self.client = app.test_client()
 
     def test_index(self):
-        with app.test_request_context():
-            response = self.client.get('/index')
-            self.assertEqual(response.status_code, 200)
-            self.assertIn(b'Welcome to the Bookstore', response.data)
+        response = self.client.get('/index')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'Welcome to the Bookstore', response.data)
 
 
     def test_register(self):
