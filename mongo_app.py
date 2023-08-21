@@ -90,8 +90,6 @@ def register():
 
 #######
 
-
-
 @app.route("/search_books", methods=["GET"])
 def search_books():
     user_logged_in = is_user_logged_in()
@@ -135,7 +133,7 @@ def create_book():
             "price": price,
             "year": year,
             "quantity": quantity,
-            "rating": "0",  # You can add a default rating
+            "rating": 0,  # You can add a default rating
             "category_id": category_id,
             "id": id
         }
@@ -160,7 +158,7 @@ def search_results():
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
             first_name = user.get('first_name')
-    
+
     search_term = request.args.get('searchTerm')
     category = request.args.get('category')
     
