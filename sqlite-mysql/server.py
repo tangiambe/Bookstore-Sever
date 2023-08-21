@@ -3,11 +3,13 @@ from connection import create_connection
 import query_data as db
 import create_data as create
 
+database = "bookstore.db"
+
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
 
 @app.route("/")
-def home():
+def home(name):
     return f"_"
 
 
@@ -17,7 +19,7 @@ def home():
 def books():
     #GET BOOK
     if request.method == "GET":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         books = db.all_books(conn)
         results = []
         
@@ -70,7 +72,7 @@ def books():
         request.form["author"]: dict,
         """
 
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         if request.form:
             book = create.insert_book(conn,{
                 "title": request.form["title"],
@@ -103,7 +105,7 @@ def books():
 def book_by_id(book_id):
     #READ BOOK
     if request.method == "GET":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         book = db.select_book_id(conn, book_id)
         if book:
             result = {
@@ -123,7 +125,7 @@ def book_by_id(book_id):
     
     # UPDATE BOOK
     elif request.method == "PUT":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         book = db.select_book(conn, book_id)
         if book:
             if "title" in request.json:
@@ -151,7 +153,7 @@ def book_by_id(book_id):
    
     # DELETE BOOK
     elif request.method == "DELETE":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         book = db.select_book(conn, book_id)
         if book:
             db.delete_book(conn,book_id)
@@ -166,7 +168,7 @@ def book_by_id(book_id):
 @app.route("/author", methods=["GET", "POST"])
 def author():
     if request.method == "GET":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         results = []
         for author in db.all_authors(conn):
             results.append({
@@ -177,7 +179,7 @@ def author():
         return results, 200
     
     elif request.method == "POST":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         if request.form:
             author = create.insert_author(conn,{
                 "name":request.form["name"]
@@ -194,7 +196,7 @@ def author():
 def author_by_id(author_id):
     #READ AUTHOR
     if request.method == "GET":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         author = db.select_author(conn, author_id, "id")
         if author:
             result = {
@@ -207,7 +209,7 @@ def author_by_id(author_id):
             return f"author with id {author_id} not found", 204
     elif request.method == "PUT":
         # UPDATE AUTHOR
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         author = db.select_author(conn, author_id, "id")
         if author:
             name = request.json["name"]
@@ -218,7 +220,7 @@ def author_by_id(author_id):
             return f"author with id {author_id} not found", 204
     elif request.method == "DELETE":
         # DELETE AUTHOR
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         author = db.select_author(conn, author_id, "id")
         if author:
             db.delete_author(conn,author_id)
@@ -232,7 +234,7 @@ def author_by_id(author_id):
 @app.route("/category", methods=["GET", "POST"])
 def category():
     if request.method == "GET":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         results = []
         for category in db.all_categories(conn):
             results.append({
@@ -243,7 +245,7 @@ def category():
         return results, 200
     
     elif request.method == "POST":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         if request.form:
             category = create.insert_category(conn,{
                 "name":request.form["name"],
@@ -260,7 +262,7 @@ def category():
 def category_by_id(category_id):
     # READ CATEGORY
     if request.method == "GET":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         category = db.select_category(conn, category_id, "id")
         if category:
             result = {
@@ -274,7 +276,7 @@ def category_by_id(category_id):
         
     # UPDATE CATEGORY
     elif request.method == "PUT":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         category = db.select_category(conn, category_id, "id")
         if category:
             name = request.json["name"]
@@ -286,7 +288,7 @@ def category_by_id(category_id):
     
     # DELETE CATEGORY
     elif request == "DELETE":
-        conn = create_connection("bookstore.db")
+        conn = create_connection(database)
         category = db.select_category(conn, category_id, "id")
         if category:
             db.delete_category(conn,category_id)

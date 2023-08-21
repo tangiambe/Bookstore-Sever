@@ -1,5 +1,5 @@
 import unittest
-from mongo_app import app
+from mongodb.mongo_app import app
 
 class FlaskAppTestCase(unittest.TestCase):
 
