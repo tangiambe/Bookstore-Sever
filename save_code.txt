@@ -14,15 +14,14 @@
             {{ message }}
         </div>
         {% endif %}
-
         <form action="{{ url_for('create_book') }}" method="POST">
-            <div class="form-group">
-                <label for="id">ISBN</label>
-                <input type="text" class="form-control" id="id" name="id" required maxlength="10">
-            </div>
             <div class="form-group">
                 <label for="title">Title</label>
                 <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" id="author" name="author" required>
             </div>
             <div class="form-group">
                 <label for="category">Category</label>
@@ -31,6 +30,10 @@
                         <option value="{{ category.id }}">{{ category.name }}</option>
                     {% endfor %}
                 </select>
+            </div>
+            <div class="form-group">
+                <label for="id">ISBN</label>
+                <input type="text" class="form-control" id="id" name="id" required maxlength="10">
             </div>
             <div class="form-group">
                 <label for="price">Price</label>

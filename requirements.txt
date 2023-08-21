@@ -1,7 +1,0 @@
-#pip install -r requirements.txt
-flask
-requests
-pandas
-flask_mysqldb
-MySQLdb
-mysql

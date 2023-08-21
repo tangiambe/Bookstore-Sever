@@ -123,19 +123,11 @@ def create_book():
 
     if request.method == "POST":
         title = request.form.get("title")
-        author_name = request.form.get("author")
         category_id = int(request.form.get("category"))
-        id = request.form.get("id")
+        id = int(request.form.get("id"))
         price = float(request.form.get("price"))
         year = int(request.form.get("year"))
         quantity = int(request.form.get("quantity"))
-
-        # Check if the author already exists in the authors_collection
-        author = authors_collection.find_one({"name": author_name})
-        if not author:
-            author_id = authors_collection.insert_one({"name": author_name}).inserted_id
-        else:
-            author_id = author["_id"]
 
         # Create the book data
         book_data = {
@@ -150,7 +142,7 @@ def create_book():
         book_id = books_collection.insert_one(book_data).inserted_id
 
         # Connect the author to the book in bookauthor_collection
-        bookauthor_collection.insert_one({"author_id": author_id, "book_id": book_id})
+        bookauthor_collection.insert_one({"book_id": book_id})
         message = 'Book created successfully!'
 
         categories = categories_collection.find()
@@ -165,7 +157,6 @@ def search_results():
     user_logged_in = is_user_logged_in()
     first_name = None
     if user_logged_in:
-        # Fetch the first_name based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
             first_name = user.get('first_name')
@@ -180,9 +171,8 @@ def search_results():
             {"title": {"$regex": search_term, "$options": "i"}},
             {"id": {"$regex": search_term, "$options": "i"}}
         ]
-    print(query)
     if category:
-        query["category_id"] = int(category)  # Assuming category_id is an integer field
+        query["category_id"] = int(category)
     
     # Retrieve book data from MongoDB based on the query
     books = books_collection.find(query)
