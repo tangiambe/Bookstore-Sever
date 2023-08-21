@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Search Results</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
@@ -9,12 +11,15 @@
 
     <div class="container mt-5">
         <!-- Display Search Results -->
+
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <h2>Search Results</h2>
+                <a href="{{ url_for('search_books') }}">Return to Search</a>
                 <table class="table">
                     <thead>
                         <tr>
+                            <th></th>
                             <th>ISBN</th>
                             <th>Title</th>
                             <th>Price</th>
@@ -23,11 +28,15 @@
                             <th>Rating</th>
                             <th>Category ID</th>
                             <th>Author ID</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         {% for book in books %}
                         <tr>
+                            <td><a href="{{ url_for('book_info', book_id=book.id) }}" class="btn btn-primary">
+                                Select
+                            </button></td>
                             <td>{{ book.id }}</td>
                             <td>{{ book.title }}</td>
                             <td>{{ book.price }}</td>
@@ -35,8 +44,12 @@
                             <td>{{ book.quantity }}</td>
                             <td>{{ book.rating }}</td>
                             <td>{{ book.category_id }}</td>
-                            <td>{{ book.author_id }}</td>                           
+                            <td>{{ book.author_id }}</td>
+
+
+
                         </tr>
+                        
                         {% endfor %}
                     </tbody>
                 </table>
