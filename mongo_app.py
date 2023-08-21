@@ -165,12 +165,16 @@ def search_results():
     # Build the MongoDB query based on search_term and category (if provided)
     query = {}
     if search_term:
-        query["$or"] = [
-            {"title": {"$regex": search_term, "$options": "i"}},
-            {"id": {"$regex": search_term, "$options": "i"}}
-        ]
-    if category:
-        query["category_id"] = int(category)
+        try:
+            search_id = int(search_term)  # Convert the search term to an integer
+            query["$or"] = [
+                {"title": {"$regex": search_term, "$options": "i"}},
+                {"id": search_id}  # Search for exact integer match
+            ]
+        except ValueError:
+            query["title"] = {"$regex": search_term, "$options": "i"}
+        if category:
+            query["category_id"] = int(category)
     
     # Retrieve book data from MongoDB based on the query
     books = books_collection.find(query)
