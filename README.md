@@ -1,11 +1,11 @@
-## Credits 👤
-
-This is not the original project and was originally created & used with MySQL
-
 # Backend Bookstore Server 📚
 
 MongoDB for database
 User makes API calls to database with HTML user-friendly templates
+
+## Credits 👤
+
+This is not the original project and was originally created & used with MySQL
 
 ## Demo/Usage 👤
 
