@@ -1,1 +1,0 @@
-'/search_results/<int:book_id>/delete'

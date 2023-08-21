@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify
 from pymongo import MongoClient
 import re
 import bcrypt
@@ -90,8 +90,6 @@ def register():
 
 #######
 
-
-
 @app.route("/search_books", methods=["GET"])
 def search_books():
     user_logged_in = is_user_logged_in()
@@ -123,19 +121,11 @@ def create_book():
 
     if request.method == "POST":
         title = request.form.get("title")
-        author_name = request.form.get("author")
         category_id = int(request.form.get("category"))
-        id = request.form.get("id")
+        id = int(request.form.get("id"))
         price = float(request.form.get("price"))
         year = int(request.form.get("year"))
         quantity = int(request.form.get("quantity"))
-
-        # Check if the author already exists in the authors_collection
-        author = authors_collection.find_one({"name": author_name})
-        if not author:
-            author_id = authors_collection.insert_one({"name": author_name}).inserted_id
-        else:
-            author_id = author["_id"]
 
         # Create the book data
         book_data = {
@@ -143,14 +133,14 @@ def create_book():
             "price": price,
             "year": year,
             "quantity": quantity,
-            "rating": "0",  # You can add a default rating
+            "rating": 0,  # You can add a default rating
             "category_id": category_id,
             "id": id
         }
         book_id = books_collection.insert_one(book_data).inserted_id
 
         # Connect the author to the book in bookauthor_collection
-        bookauthor_collection.insert_one({"author_id": author_id, "book_id": book_id})
+        bookauthor_collection.insert_one({"book_id": book_id})
         message = 'Book created successfully!'
 
         categories = categories_collection.find()
@@ -165,24 +155,26 @@ def search_results():
     user_logged_in = is_user_logged_in()
     first_name = None
     if user_logged_in:
-        # Fetch the first_name based on user_id
         user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
         if user:
             first_name = user.get('first_name')
-    
+
     search_term = request.args.get('searchTerm')
     category = request.args.get('category')
     
     # Build the MongoDB query based on search_term and category (if provided)
     query = {}
     if search_term:
-        query["$or"] = [
-            {"title": {"$regex": search_term, "$options": "i"}},
-            {"id": {"$regex": search_term, "$options": "i"}}
-        ]
-    print(query)
-    if category:
-        query["category_id"] = int(category)  # Assuming category_id is an integer field
+        try:
+            search_id = int(search_term)  # Convert the search term to an integer
+            query["$or"] = [
+                {"title": {"$regex": search_term, "$options": "i"}},
+                {"id": search_id}  # Search for exact integer match
+            ]
+        except ValueError:
+            query["title"] = {"$regex": search_term, "$options": "i"}
+        if category:
+            query["category_id"] = int(category)
     
     # Retrieve book data from MongoDB based on the query
     books = books_collection.find(query)
@@ -234,21 +226,26 @@ def delete_book(book_id):
     return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
 
 
-@app.route('/search_results/<int:book_id>/update')
+@app.route('/update_book/<int:book_id>', methods=["POST"])
 def update_book(book_id):
-    first_name = None
-    user_logged_in = is_user_logged_in()
-    if user_logged_in:
-        # Fetch the username based on user_id
-        user = users_collection.find_one({'_id': ObjectId(session['user_id'])})
-        if user:
-            first_name = user.get('first_name')
+    if request.method == 'POST':
+        field_val = request.form.get('fieldVal')
+        field_input = request.form.get('fieldInput')
+        
+        # Construct the filter and update query
+        filter_query = {'id': book_id}
+        update_query = {'$set': {field_val: field_input}}
+        
+        # Update the book using the constructed queries
+        books_collection.update_one(filter_query, update_query)
+        
+        return redirect(url_for('search_results'))
+    
+    # Fetch the book details for the given book_id
+    book = books_collection.find_one({'id': book_id})
+    
+    return render_template('update_book.html', book=book)
 
-
-
-
-
-    return render_template('search_books.html', user_logged_in=user_logged_in, first_name=first_name)
 
    
 if __name__ == "__main__":
